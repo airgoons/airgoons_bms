@@ -207,18 +207,11 @@
 // or it being day 3
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 11
-	#IF_CAMPAIGN_DAY >= 2
+	#IF_CONTROLLED 2 OR 253 741 1804
 		#PLAY_MOVIE 108
 		#CHANGE_RELATIONS 5 6 1
 		#DO_EVENT 11
 		#DO_MONOLOG China does join DPRK
-	#ELSE
-		#IF_CONTROLLED 2 OR 253 741 1804
-			#PLAY_MOVIE 108
-			#CHANGE_RELATIONS 5 6 1
-			#DO_EVENT 11
-			#DO_MONOLOG China does join DPRK
-		#ENDIF
 	#ENDIF
 #ENDIF
 
@@ -232,13 +225,6 @@
 		#CHANGE_RELATIONS 4 6 1
 		#DO_EVENT 12
 		#DO_MONOLOG Russia does join DPRK
-	#ELSE
-		#IF_CAMPAIGN_DAY >= 5
-			#PLAY_MOVIE 109
-			#CHANGE_RELATIONS 4 6 1
-			#DO_EVENT 12
-			#DO_MONOLOG Russia does join DPRK
-		#ENDIF
 	#ENDIF
 #ENDIF
 
