@@ -431,12 +431,7 @@
 //   Banja Luka, Zagreb, Zadar....Albania joins the war
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 24
-	#IF_CONTROLLED 2 AND 3788 393 330
-		#CHANGE_RELATIONS 4 2 1
-		#PLAY_MOVIE 108
-		#DO_EVENT 24
-		#DO_MONOLOG Albania joins NATO
-	#ENDIF
+	#DO_EVENT 24
 #ENDIF
 
 //////////////////////////////////////////////////////////////////////////////
