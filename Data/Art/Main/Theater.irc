@@ -49,14 +49,14 @@
 [ADDTEXT] NOT_USED "Keep this line!"
 
 // -----Scenario 2-----
-[ADDTEXT] TXT_SCENARIO_2 "ROLLING FIRE"
-[ADDTEXT] TXT_SC_2_LINE_1 "North Korean invasion is imminent. Repel their attack on Seoul, then capture P'Yongyang and Wonsan."
+[ADDTEXT] TXT_SCENARIO_2 "[420] ROLLING FIRE"
+[ADDTEXT] TXT_SC_2_LINE_1 "The United States has suddenly adopted an isolationist foreign policy and has withdrawn all combat forces from South Korea.  Logistics and reconnaissance aircraft remain operational out of Japan, but otherwise the South is now alone."
 [ADDTEXT] TXT_SC_2_LINE_2 ""
-[ADDTEXT] TXT_SC_2_LINE_3 ""
+[ADDTEXT] TXT_SC_2_LINE_3 "Capitalizing on the chaos this dramatic policy shift has caused, North Korea quietly negotiated for a significant military aid package from the People's Republic of China.  Intelligence suggests this aid consists of combat vehicles and fighter aircraft, but the extent of their renewed alliance is unknown."
 [ADDTEXT] TXT_SC_2_LINE_4 ""
 [ADDTEXT] TXT_SC_2_CAMP_END "30"
 [ADDTEXT] TXT_SC_2_CAMP_STALE "20"
-[ADDTEXT] TXT_SC_2_CAMP_DIFF "Medium"
+[ADDTEXT] TXT_SC_2_CAMP_DIFF "Hard"
 
 // -----Scenario 3-----
 [ADDTEXT] TXT_SCENARIO_3 "IRON FORTRESS"
