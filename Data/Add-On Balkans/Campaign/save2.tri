@@ -1,0 +1,358 @@
+//////////////////////////////////////////////////////////////////////////////
+// Base event file
+//////////////////////////////////////////////////////////////////////////////
+
+// Balkans: Powderkeg
+
+//////////////////////////////////////////////////////////////////////////////
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore
+// KCK WARNING: KEEP THIS UPDATED!
+//////////////////////////////////////////////////////////////////////////////
+#TOTAL_EVENTS 19
+#FLOT_SORTDIRECTION 0
+//////////////////////////////////////////////////////////////////////////////
+// #SET_EVENT will set the activated flag for any
+// events we want to be initially activate
+// ie: Seoul already should be marked as
+// captured in the Pusan parameter scenario
+//
+// This marks that NATO forces are on the offensive
+//////////////////////////////////////////////////////////////////////////////
+#SET_EVENT 9
+
+//////////////////////////////////////////////////////////////////////////////
+// This sets the initial tempo
+//////////////////////////////////////////////////////////////////////////////
+#SET_TEMPO 150
+
+//////////////////////////////////////////////////////////////////////////////
+// This sets the FLOT direction North-South
+//////////////////////////////////////////////////////////////////////////////
+#FLOT_SORTDIRECTION 1
+
+//////////////////////////////////////////////////////////////////////////////
+// Initialization section done
+//////////////////////////////////////////////////////////////////////////////
+#ENDINIT
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #1
+// Banja Luka being attacked by FRY forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 1
+	#IF_CONTROLLED 6 OR 3788
+		#PLAY_MOVIE 107
+		#SET_PAK_PRIORITY 6 3788 100
+		#SET_PAK_PRIORITY 2 3788 100
+		#CHANGE_PRIORITIES 6 2
+		#CHANGE_PRIORITIES 2 1
+		#SET_TEMPO 255
+		#DO_EVENT 1
+		#DO_MONOLOG Banja Luka being attacked by FRY
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #2
+// Bijeljina City falls/regained
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 2
+	#IF_CONTROLLED 2 AND 439
+		#PLAY_MOVIE 106
+		#SHIFT_INITIATIVE 2 6 50
+		#RESET_EVENT 2
+		#DO_MONOLOG Bijeljina falls
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 439
+		#DO_EVENT 2
+		#SHIFT_INITIATIVE 6 2 50
+		#DO_MONOLOG Bijeljina regained
+	#ENDIF
+#ENDIF
+// 
+//////////////////////////////////////////////////////////////////////////////
+// Event #3
+// NATO pushed into Sabac and Beograd
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 3
+	#IF_CONTROLLED 2 OR 417 1072 2043 9501 269
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 6 3798 100
+		#SET_PAK_PRIORITY 2 3798 100
+		#CHANGE_PRIORITIES 6 1
+		#CHANGE_PRIORITIES 2 2
+		#SET_TEMPO 255
+		#DO_EVENT 3
+		#DO_MONOLOG NATO pushed into Sabac and Beograd
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #4
+// Sabac City falls/regained
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 4
+	#IF_CONTROLLED 6 AND 3783
+		#SHIFT_INITIATIVE 2 6 50
+		#RESET_EVENT 4
+		#DO MONOLOG Sabac regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 2 AND 3783
+		#PLAY_MOVIE 103
+		#DO_EVENT 4
+		#SHIFT_INITIATIVE 6 2 50
+		#DO_MONOLOG Sabac falls
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #5
+// FRY advances into Bosnia and Croatia
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 5
+	#IF_NOT_EVENT_PLAYED 7
+		#IF_CONTROLLED 6 AND 2006 289 3422
+			#DO_EVENT 5
+			#RESET_EVENT 6
+			#DO_MONOLOG FRY controls Tuzla, Sarajevo and Mostar City
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #6
+// FRY pushed back into Serbia
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 5
+	#IF_EVENT_PLAYED 7
+		#PLAY_MOVIE 104
+		#DO_EVENT 6
+		#RESET_EVENT 5
+		#DO_MONOLOG FRY pushed back into Serbia
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 2 AND 2006 289 3422
+		#PLAY_MOVIE 104
+		#DO_EVENT 6
+		#RESET_EVENT 5
+		#DO_MONOLOG FRY pushed back into Serbia
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #7 
+// NATO forces advanced into Serbia
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 7
+	#IF_NOT_EVENT_PLAYED 5
+		#IF_CONTROLLED 2 AND 312 439 294 3783
+			#DO_EVENT 7
+			#RESET_EVENT 8
+			#DO_MONOLOG NATO forces advanced into Serbia
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #8
+// NATO pushed out of Serbia
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 7
+	#IF_EVENT_PLAYED 5
+		#PLAY_MOVIE 105
+		#DO_EVENT 8
+		#RESET_EVENT 7
+		#DO_MONOLOG NATO pushed out of Serbia
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 312 439 294 3783
+		#PLAY_MOVIE 105
+		#DO_EVENT 8
+		#RESET_EVENT 7
+		#DO_MONOLOG NATO pushed out of Serbia
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #9
+// NATO forces go on offensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 10
+	#IF_ON_OFFENSIVE 2
+		#PLAY_MOVIE 106
+		#DO_EVENT 9
+		#RESET_EVENT 10
+		#DO_MONOLOG NATO forces go on offensive
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #10
+// NATO forces go on defensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 9
+	#IF_ON_OFFENSIVE 6
+		#PLAY_MOVIE 107
+		#DO_EVENT 10
+		#RESET_EVENT 9
+		#DO_MONOLOG NATO forces go on defensive
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #11 
+// Hungary joins NATO
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 11
+	#IF_CONTROLLED 6 AND 2006 289 3422 266
+		#CHANGE_RELATIONS 5 2 1
+		#PLAY_MOVIE 108
+		#DO_EVENT 11
+		#DO_MONOLOG Hungary joins NATO
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #12 
+// Bosnia joins NATO
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 12
+	#IF_CAMPAIGN_DAY <= 2
+		#CHANGE_RELATIONS 3 2 1
+		#PLAY_MOVIE 108
+		#DO_EVENT 12
+		#DO_MONOLOG Hungary joins NATO
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #13 
+// NATO wins if FRY supply is less than or equal to 20%
+// NATO wins if FRY aircraft are close to depleted
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 13
+	#IF_SUPPLY 6 <= 10
+		#PLAY_MOVIE 109
+		#DO_EVENT 17
+		#END_GAME 17
+		#DO_MONOLOG  NATO wins (1) -> END GAME
+	#ENDIF
+//#ELSE
+	#IF_FORCE_RATIO GND 6 2 <= 5
+		#PLAY_MOVIE 109
+		#DO_EVENT 17
+		#END_GAME 17
+		#DO_MONOLOG  NATO wins (2) -> END GAME
+	#ENDIF
+#ENDIF
+ 
+//////////////////////////////////////////////////////////////////////////////
+// Event #14
+//  Fry controls Bihac City, Banja Luka City, Gornji Vakuf City, Mostar City, Sarajevo City, 
+//          Tuzla City, Gruda City, Split City, Zadar City, Rijeka City, Zagreb City, Osijek City
+////////////////////////////////////////////////////////////////////////////// 
+#IF_CONTROLLED 6 AND 426 3788 266 3422 289 2006 1774 347 330 13469 393 2120
+	#PLAY_MOVIE 113
+	#DO_EVENT 14
+	#END_GAME 14
+	#DO_MONOLOG Fry wins -> Occupies most of Croatia and Bosnia
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #15
+// Stalemate
+//////////////////////////////////////////////////////////////////////////////
+#IF_BORDOM_HOURS 480
+	#PLAY_MOVIE 114
+	#DO_EVENT 15
+	#END_GAME 15
+	#DO_MONOLOG Stalemate -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #16
+// Timeout
+//////////////////////////////////////////////////////////////////////////////
+#IF_CAMPAIGN_DAY >= 30
+	#PLAY_MOVIE 115
+	#DO_EVENT 16
+	#END_GAME 16
+	#DO_MONOLOG Timeout -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #17
+// NATO wins
+//   NATO controls: Bijeljina City, Vlasencia City, Novi Sad City, 
+//            Zrenjanin City, Stepojevac City, Sabac City, Sarajevo Village 
+//                    or
+// NATO controls: Beograd City
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 2 AND 439 312 13425 438 414 3783 3564
+	#PLAY_MOVIE 116
+	#DO_EVENT 17
+	#END_GAME 17
+	#DO_MONOLOG  NATO forces pushed into Serbia -> END GAME
+#ELSE
+	#IF_CONTROLLED 2 AND 3798
+		#PLAY_MOVIE 116
+		#DO_EVENT 17
+		#END_GAME 17
+		#DO_MONOLOG  NATO forces pushed into Beograd -> END GAME
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #18
+// NATO wins
+//   Bosnia controls: Bijeljina City, Vlasencia City, Novi Sad City, 
+//            Zrenjanin City, Stepojevac City, Sabac City, Sarajevo Village 
+//                    or
+//   Bosnia controls: Beograd City
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 3 AND 439 312 13425 438 414 3783 3564
+	#PLAY_MOVIE 116
+	#DO_EVENT 17
+	#END_GAME 17
+	#DO_MONOLOG  Bosnian forces pushed into Serbia -> END GAME
+#ELSE
+	#IF_CONTROLLED 3 AND 3798
+		#PLAY_MOVIE 116
+		#DO_EVENT 17
+		#END_GAME 17
+		#DO_MONOLOG  Bosnian forces pushed into Beograd -> END GAME
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #19
+// NATO wins
+//   Croatia controls: Bijeljina City, Vlasencia City, Novi Sad City, 
+//            Zrenjanin City, Stepojevac City, Sabac City, Sarajevo Village 
+//                    or
+//   Croatia controls: Beograd City
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 7 AND 439 312 13425 438 414 3783 3564
+	#PLAY_MOVIE 116
+	#DO_EVENT 17
+	#END_GAME 17
+	#DO_MONOLOG  Croatian forces pushed into Serbia -> END GAME
+#ELSE
+	#IF_CONTROLLED 7 AND 3798
+		#PLAY_MOVIE 116
+		#DO_EVENT 17
+		#END_GAME 17
+		#DO_MONOLOG  Croatian forces pushed into Beograd -> END GAME
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Script done
+//////////////////////////////////////////////////////////////////////////////
+#ENDSCRIPT

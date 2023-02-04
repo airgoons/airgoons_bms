@@ -1,0 +1,445 @@
+//////////////////////////////////////////////////////////////////////////////
+// Base event file
+//////////////////////////////////////////////////////////////////////////////
+
+// Balkans: Balance of Power
+
+//////////////////////////////////////////////////////////////////////////////
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore
+// KCK WARNING: KEEP THIS UPDATED!
+//////////////////////////////////////////////////////////////////////////////
+#TOTAL_EVENTS 24
+
+//////////////////////////////////////////////////////////////////////////////
+// #SET_EVENT will set the activated flag for any
+// events we want to be initially activate
+// ie: Seoul already should be marked as
+// captured in the Pusan parameter scenario
+//
+// This marks NATO forces as initially on the defensive
+//////////////////////////////////////////////////////////////////////////////
+#SET_EVENT 22
+
+// This marks the FRY as having advanced into Bosnia and Croatia
+//////////////////////////////////////////////////////////////////////////////
+#SET_EVENT 6
+#SET_EVENT 8
+#SET_EVENT 10
+#SET_EVENT 12
+
+//////////////////////////////////////////////////////////////////////////////
+// This sets the initial tempo
+//////////////////////////////////////////////////////////////////////////////
+#SET_TEMPO 150
+
+//////////////////////////////////////////////////////////////////////////////
+// This sets the FLOT direction North-South
+//////////////////////////////////////////////////////////////////////////////
+#FLOT_SORTDIRECTION 1
+
+//////////////////////////////////////////////////////////////////////////////
+// Initialization section done
+//////////////////////////////////////////////////////////////////////////////
+#ENDINIT
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #1
+// Ljublijana being attacked by FRY forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 1
+	#IF_CONTROLLED 6 OR 953 1636 12946 12972 12960 13879
+		#PLAY_MOVIE 100
+		#SET_PAK_PRIORITY 6 953 100
+		#SET_PAK_PRIORITY 2 953 100
+		#SET_TEMPO 255
+		#DO_EVENT 1
+		#DO_MONOLOG Ljublijana being attacked by FRY forces
+	#ENDIF
+#ENDIF 
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #2
+// Ljublijana falls/regained
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 2
+	#IF_CONTROLLED 2 AND 953 12972 12973 1002
+		#SHIFT_INITIATIVE 2 6 50
+		#RESET_EVENT 2
+		#DO_MONOLOG Ljublijana regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 953 12972 12973 1002 
+		#PLAY_MOVIE 101
+		#DO_EVENT 2
+		#SHIFT_INITIATIVE 6 2 50
+		#DO_MONOLOG Ljublijana falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #3
+// Zadar and Zagreb being attacked by FRY forces
+////////////////////////////////////////////////////////////////////////////// 
+#IF_NOT_EVENT_PLAYED 3
+	#IF_CONTROLLED 2 OR 393 330
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 2 347 100
+		#SET_PAK_PRIORITY 6 347 100
+		#CHANGE_PRIORITIES 6 1
+		#CHANGE_PRIORITIES 2 2
+		#SET_TEMPO 255
+		#DO_EVENT 3
+		#DO_MONOLOG Zadar and Zagreb being attacked by FRY forces
+	#ENDIF
+#ENDIF
+ 
+//////////////////////////////////////////////////////////////////////////////
+// Event #4
+// Zagreb and Zadar falls/regained
+////////////////////////////////////////////////////////////////////////////// 
+#IF_EVENT_PLAYED 4
+	#IF_CONTROLLED 2 AND 393 330
+		#PLAY_MOVIE 103
+	    #SET_PAK_PRIORITY 6 3788 100
+		#SET_PAK_PRIORITY 2 3788 100
+		#DO_EVENT 4
+		#SHIFT_INITIATIVE 2 6 50
+		#DO_MONOLOG Zadar and Zagreb regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 393 330
+		#SHIFT_INITIATIVE 6 2 50
+		#RESET_EVENT 4
+		#DO_MONOLOG Zagreb and Zadar falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #5
+// Split being attacked by FRY forces
+////////////////////////////////////////////////////////////////////////////// 
+#IF_NOT_EVENT_PLAYED 5
+	#IF_CONTROLLED 2 AND 347
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 2 289 100
+		#SET_PAK_PRIORITY 6 289 100
+		#CHANGE_PRIORITIES 6 1
+		#CHANGE_PRIORITIES 2 2
+		#SET_TEMPO 255
+		#DO_EVENT 5
+		#DO_MONOLOG Split being attacked by FRY forces
+	#ENDIF
+#ENDIF
+ 
+//////////////////////////////////////////////////////////////////////////////
+// Event #6
+// Split falls/regained
+////////////////////////////////////////////////////////////////////////////// 
+#IF_EVENT_PLAYED 6
+	#IF_CONTROLLED 2 AND 347
+		#PLAY_MOVIE 103
+	    #SET_PAK_PRIORITY 6 289 100
+		#SET_PAK_PRIORITY 2 289 100
+		#DO_EVENT 6
+		#SHIFT_INITIATIVE 2 6 50
+		#DO_MONOLOG Split regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 347
+		#SHIFT_INITIATIVE 6 2 50
+		#RESET_EVENT 6
+		#DO_MONOLOG Split falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #7
+// Sarajevo being attacked by FRY forces
+////////////////////////////////////////////////////////////////////////////// 
+#IF_NOT_EVENT_PLAYED 7
+	#IF_CONTROLLED 2 OR 289 1086 3569 597 411 3564
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 2 2006 100
+		#SET_PAK_PRIORITY 6 2006 100
+		#CHANGE_PRIORITIES 6 1
+		#CHANGE_PRIORITIES 2 2
+		#SET_TEMPO 255
+		#DO_EVENT 7
+		#DO_MONOLOG Sarajevo being attacked by FRY forces
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #8
+// Sarajevo falls/regained
+////////////////////////////////////////////////////////////////////////////// 
+#IF_EVENT_PLAYED 8
+	#IF_CONTROLLED 2 AND 289 551 1086
+		#PLAY_MOVIE 103
+	    #SET_PAK_PRIORITY 6 2006 100
+		#SET_PAK_PRIORITY 2 2006 100
+		#DO_EVENT 8
+		#SHIFT_INITIATIVE 2 6 50
+		#DO_MONOLOG Sarajevo regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 289 551 1086
+		#SHIFT_INITIATIVE 6 2 50
+		#RESET_EVENT 8
+		#DO_MONOLOG Sarajevo falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #9
+// Tuzla being attacked by NATO forces
+////////////////////////////////////////////////////////////////////////////// 
+#IF_NOT_EVENT_PLAYED 9
+	#IF_CONTROLLED 2 OR 2006 537 1021 792 1022
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 2 2006 100
+		#SET_PAK_PRIORITY 6 2006 100
+		#CHANGE_PRIORITIES 6 1
+		#CHANGE_PRIORITIES 2 2
+		#SET_TEMPO 255
+		#DO_EVENT 9
+		#DO_MONOLOG Tuzla being attacked by NATO forces
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #10
+// Tuzla falls/regained
+////////////////////////////////////////////////////////////////////////////// 
+#IF_EVENT_PLAYED 8
+	#IF_CONTROLLED 2 AND 2006 537 1021 792 1022
+		#PLAY_MOVIE 103
+	    #SET_PAK_PRIORITY 6 2120 100
+		#SET_PAK_PRIORITY 2 2120 100
+		#DO_EVENT 10
+		#SHIFT_INITIATIVE 2 6 50
+		#DO_MONOLOG Tuzla regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 2006 537 1021 792 1022
+		#SHIFT_INITIATIVE 6 2 50
+		#RESET_EVENT 10
+		#DO_MONOLOG Tuzla falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #11
+// Osijek being attacked by NATO forces
+////////////////////////////////////////////////////////////////////////////// 
+#IF_NOT_EVENT_PLAYED 11
+	#IF_CONTROLLED 2 OR 505 2120 2121 994 13596 457
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 2 3783 100
+		#SET_PAK_PRIORITY 6 3783 100
+		#CHANGE_PRIORITIES 6 1
+		#CHANGE_PRIORITIES 2 2
+		#SET_TEMPO 255
+		#DO_EVENT 11
+		#DO_MONOLOG Osijek being attacked by NATO forces
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #12
+// Osijek falls/regained
+////////////////////////////////////////////////////////////////////////////// 
+#IF_EVENT_PLAYED 12
+	#IF_CONTROLLED 2 AND 505 2120 2121 994 13596 457
+		#PLAY_MOVIE 103
+	    #SET_PAK_PRIORITY 6 3783 100
+		#SET_PAK_PRIORITY 2 3783 100
+		#DO_EVENT 12
+		#SHIFT_INITIATIVE 2 6 50
+		#DO_MONOLOG Osijek regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 505 2120 2121 994 13596 457
+		#SHIFT_INITIATIVE 6 2 50
+		#RESET_EVENT 12
+		#DO_MONOLOG Osijek falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #13
+// FRY advanced beyond NATO lines
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 13
+	#IF_NOT_EVENT_PLAYED 15
+		#IF_CONTROLLED 6 OR 393 330 1004 535 
+			#DO_EVENT 13
+			#RESET_EVENT 14
+			#DO_MONOLOG FRY advanced beyond NATO
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #14
+// FRY wins
+// Control ALL of: Rijeka, Kranj, Ljubljana
+////////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 6 AND 13469 13925 953
+	#PLAY_MOVIE 113
+	#DO_EVENT 14
+	#END_GAME 14
+	#DO_MONOLOG NATO forces defeated -> END GAME
+#ENDIF
+ 
+//////////////////////////////////////////////////////////////////////////////
+// Event #15
+// Stalemate 
+//////////////////////////////////////////////////////////////////////////////
+#IF_BORDOM_HOURS 480
+	#PLAY_MOVIE 114
+	#DO_EVENT 15
+	#END_GAME 15
+	#DO_MONOLOG Stalemate -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #16
+// Timeout
+//////////////////////////////////////////////////////////////////////////////
+#IF_CAMPAIGN_DAY >= 30
+	#PLAY_MOVIE 115
+	#DO_EVENT 16
+	#END_GAME 16
+	#DO_MONOLOG Timeout -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #17
+// NATO wins
+//  Serbian forces pushed back to their borders -> Control ALL of: Zagreb, Zadar, Banja Luka, Split,
+//								Mostar, Tuzla, Osijek, Sarajevo, Bihac, Gornji Vakuf
+////////////////////////////////////////////////////////////////////////////// 
+#IF_CONTROLLED 2 AND 393 330 3788 3422 347 266 2006 2120 289 426
+	#PLAY_MOVIE 116
+	#DO_EVENT 17
+	#END_GAME 17
+	#DO_MONOLOG Serbian forces pushed back to their borders -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #18
+// FRY pushed back through Bosnia and Croatia
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 18
+	#IF_EVENT_PLAYED 20
+		#PLAY_MOVIE 104
+		#DO_EVENT 6
+		#RESET_EVENT 18
+		#DO_MONOLOG FRY pushed back to Serbia Lines
+	#ELSE
+		#IF_CONTROLLED 2 AND 3788 347 379 393 330 1004
+			#PLAY_MOVIE 104
+			#DO_EVENT 19
+			#RESET_EVENT 18
+			#DO_MONOLOG FRY pushed back through Bosnia and Croatia
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #19
+// NATO forces advanced beyond FRY lines
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 19
+	#IF_NOT_EVENT_PLAYED 13
+		#IF_CONTROLLED 2 OR 3788 347 379 393 330 1004
+			#DO_EVENT 19
+			#RESET_EVENT 20
+			#DO_MONOLOG NATO forces advanced beyond FRY lines
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #20
+// NATO forces pushed back to Slovenia and Croatia
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 20
+	#IF_EVENT_PLAYED 13
+		#PLAY_MOVIE 105
+		#DO_EVENT 20
+		#RESET_EVENT 19
+		#DO_MONOLOG NATO forces pushed back to Slovenia and Croatia
+	#ELSE
+		#IF_CONTROLLED 6 AND 393 330 1004 535
+			#PLAY_MOVIE 105
+			#DO_EVENT 20
+			#RESET_EVENT 19
+			#DO_MONOLOG NATO forces pushed back to Slovenia and Croatia
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #21
+// NATO forces go on offensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 21
+	#IF_ON_OFFENSIVE 2
+		#PLAY_MOVIE 106
+		#DO_EVENT 21
+		#RESET_EVENT 22
+		#DO_MONOLOG NATO forces go on offensive
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #22
+// NATO forces go on defensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 22
+	#IF_ON_OFFENSIVE 6
+		#PLAY_MOVIE 107
+		#DO_EVENT 22
+		#RESET_EVENT 21
+		#DO_MONOLOG NATO forces go on defensive
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #23
+// Hungary joins the war
+// By NATO controlling any of the following
+//   Split, Sarajevo, Tuzla....Hungary joins the war
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 23
+	#IF_CONTROLLED 2 AND 3788 289
+		#PLAY_MOVIE 108
+		#CHANGE_RELATIONS 5 2 1
+		#DO_EVENT 23
+		#DO_MONOLOG Hungary joins NATO
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #24
+// By NATO controlling any of the following
+//   Banja Luka, Zagreb, Zadar....Albania joins the war
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 24
+	#IF_CONTROLLED 2 AND 3788 393 330
+		#CHANGE_RELATIONS 4 2 1
+		#PLAY_MOVIE 108
+		#DO_EVENT 24
+		#DO_MONOLOG Albania joins NATO
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Script done
+//////////////////////////////////////////////////////////////////////////////
+#ENDSCRIPT
