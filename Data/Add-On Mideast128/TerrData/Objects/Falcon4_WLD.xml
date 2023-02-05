@@ -9114,6 +9114,10 @@
         <WpnIdx_10>362</WpnIdx_10>
         <WpnIdx_11>363</WpnIdx_11>
         <WpnIdx_12>186</WpnIdx_12>
+        <WpnIdx_13>166</WpnIdx_13>
+        <WpnIdx_14>165</WpnIdx_14>
+        <WpnIdx_15>164</WpnIdx_15>
+        <WpnIdx_16>163</WpnIdx_16>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>3</WpnCount_1>
         <WpnCount_2>2</WpnCount_2>
@@ -9127,6 +9131,10 @@
         <WpnCount_10>1</WpnCount_10>
         <WpnCount_11>1</WpnCount_11>
         <WpnCount_12>1</WpnCount_12>
+        <WpnCount_13>1</WpnCount_13>
+        <WpnCount_14>1</WpnCount_14>
+        <WpnCount_15>1</WpnCount_15>
+        <WpnCount_16>1</WpnCount_16>
     </WLD>
     <WLD Num="450">
         <Name>F-16 Netz 4/6</Name>
