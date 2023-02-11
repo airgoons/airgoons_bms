@@ -12,5 +12,5 @@
 ## Campaign adjustments for Falcon BMS 4.37
 - Korean Theatre of Operations
     - Add front line MiG-19 and MiG-21 to DPRK
-- Mideast128
+- Mideast128 1.5.1
     - Add Sparrow compatibility to F-16A-15 IRIAF
