@@ -540,14 +540,10 @@
         <Name>F-14B Wing L</Name>
         <WpnIdx_0>167</WpnIdx_0>
         <WpnIdx_1>174</WpnIdx_1>
-        <WpnIdx_2>161</WpnIdx_2>
-        <WpnIdx_3>729</WpnIdx_3>
-        <WpnIdx_4>162</WpnIdx_4>
+        <WpnIdx_2>729</WpnIdx_2>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
-        <WpnCount_3>1</WpnCount_3>
-        <WpnCount_4>1</WpnCount_4>
     </WLD>
     <WLD Num="31">
         <Name>F-14A Body</Name>
@@ -971,12 +967,8 @@
     </WLD>
     <WLD Num="53">
         <Name>Mi-28</Name>
-        <WpnIdx_0>459</WpnIdx_0>
-        <WpnIdx_1>224</WpnIdx_1>
-        <WpnIdx_2>221</WpnIdx_2>
-        <WpnCount_0>1</WpnCount_0>
-        <WpnCount_1>4</WpnCount_1>
-        <WpnCount_2>4</WpnCount_2>
+        <WpnIdx_0>220</WpnIdx_0>
+        <WpnCount_0>3</WpnCount_0>
     </WLD>
     <WLD Num="54">
         <Name>Mi-8 1/2/5/6</Name>
@@ -1391,12 +1383,14 @@
         <WpnIdx_3>276</WpnIdx_3>
         <WpnIdx_4>279</WpnIdx_4>
         <WpnIdx_5>371</WpnIdx_5>
+        <WpnIdx_6>277</WpnIdx_6>
         <WpnCount_0>40</WpnCount_0>
         <WpnCount_1>10</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
         <WpnCount_3>10</WpnCount_3>
         <WpnCount_4>40</WpnCount_4>
         <WpnCount_5>40</WpnCount_5>
+        <WpnCount_6>6</WpnCount_6>
     </WLD>
     <WLD Num="74">
         <Name>Tu-22M Inner</Name>
@@ -3945,9 +3939,7 @@
         <WpnIdx_10>460</WpnIdx_10>
         <WpnIdx_11>458</WpnIdx_11>
         <WpnIdx_12>459</WpnIdx_12>
-        <WpnIdx_13>377</WpnIdx_13>
-        <WpnIdx_14>82</WpnIdx_14>
-        <WpnIdx_15>372</WpnIdx_15>
+        <WpnIdx_13>372</WpnIdx_13>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -3962,8 +3954,6 @@
         <WpnCount_11>1</WpnCount_11>
         <WpnCount_12>1</WpnCount_12>
         <WpnCount_13>1</WpnCount_13>
-        <WpnCount_14>1</WpnCount_14>
-        <WpnCount_15>1</WpnCount_15>
     </WLD>
     <WLD Num="185">
         <Name>Su-17 2/7</Name>
@@ -4021,13 +4011,12 @@
         <WpnIdx_7>390</WpnIdx_7>
         <WpnIdx_8>389</WpnIdx_8>
         <WpnIdx_9>392</WpnIdx_9>
-        <WpnIdx_10>82</WpnIdx_10>
-        <WpnIdx_11>377</WpnIdx_11>
-        <WpnIdx_12>371</WpnIdx_12>
-        <WpnIdx_13>372</WpnIdx_13>
-        <WpnIdx_14>458</WpnIdx_14>
-        <WpnIdx_15>459</WpnIdx_15>
-        <WpnIdx_16>460</WpnIdx_16>
+        <WpnIdx_10>377</WpnIdx_10>
+        <WpnIdx_11>371</WpnIdx_11>
+        <WpnIdx_12>372</WpnIdx_12>
+        <WpnIdx_13>458</WpnIdx_13>
+        <WpnIdx_14>459</WpnIdx_14>
+        <WpnIdx_15>460</WpnIdx_15>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -4044,7 +4033,6 @@
         <WpnCount_13>1</WpnCount_13>
         <WpnCount_14>1</WpnCount_14>
         <WpnCount_15>1</WpnCount_15>
-        <WpnCount_16>1</WpnCount_16>
     </WLD>
     <WLD Num="188">
         <Name>Tu-22M Outer</Name>
@@ -5008,7 +4996,11 @@
     <WLD Num="219">
         <Name>OV-10 Center</Name>
         <WpnIdx_0>329</WpnIdx_0>
+        <WpnIdx_1>352</WpnIdx_1>
+        <WpnIdx_2>353</WpnIdx_2>
         <WpnCount_0>1</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
     </WLD>
     <WLD Num="220">
         <Name>A-7E 4/5</Name>
@@ -6284,13 +6276,9 @@
     <WLD Num="303">
         <Name>IDS GE Shoulder</Name>
         <WpnIdx_0>330</WpnIdx_0>
-        <WpnIdx_1>363</WpnIdx_1>
-        <WpnIdx_2>362</WpnIdx_2>
-        <WpnIdx_3>236</WpnIdx_3>
+        <WpnIdx_1>236</WpnIdx_1>
         <WpnCount_0>4</WpnCount_0>
-        <WpnCount_1>1</WpnCount_1>
-        <WpnCount_2>1</WpnCount_2>
-        <WpnCount_3>4</WpnCount_3>
+        <WpnCount_1>4</WpnCount_1>
     </WLD>
     <WLD Num="304">
         <Name>IDS GE Center</Name>
@@ -6388,8 +6376,8 @@
         <WpnIdx_2>326</WpnIdx_2>
         <WpnIdx_3>240</WpnIdx_3>
         <WpnIdx_4>242</WpnIdx_4>
-        <WpnIdx_5>355</WpnIdx_5>
-        <WpnIdx_6>357</WpnIdx_6>
+        <WpnIdx_5>353</WpnIdx_5>
+        <WpnIdx_6>352</WpnIdx_6>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -10511,16 +10499,12 @@
         <Name>F-14B Wing R</Name>
         <WpnIdx_0>167</WpnIdx_0>
         <WpnIdx_1>174</WpnIdx_1>
-        <WpnIdx_2>161</WpnIdx_2>
-        <WpnIdx_3>180</WpnIdx_3>
-        <WpnIdx_4>729</WpnIdx_4>
-        <WpnIdx_5>162</WpnIdx_5>
+        <WpnIdx_2>180</WpnIdx_2>
+        <WpnIdx_3>729</WpnIdx_3>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
         <WpnCount_3>1</WpnCount_3>
-        <WpnCount_4>1</WpnCount_4>
-        <WpnCount_5>1</WpnCount_5>
     </WLD>
     <WLD Num="508">
         <Name>A-4PTM 1/5</Name>
@@ -11336,7 +11320,7 @@
     </WLD>
     <WLD Num="554">
         <Name>KA-52 Outer</Name>
-        <WpnIdx_0>235</WpnIdx_0>
+        <WpnIdx_0>220</WpnIdx_0>
         <WpnCount_0>2</WpnCount_0>
     </WLD>
     <WLD Num="555">
