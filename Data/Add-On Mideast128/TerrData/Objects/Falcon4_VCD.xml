@@ -1496,8 +1496,8 @@
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
         <Det_Tracked>4.0</Det_Tracked>
-        <Det_LowAir>15.0</Det_LowAir>
-        <Det_Air>18.0</Det_Air>
+        <Det_LowAir>20.0</Det_LowAir>
+        <Det_Air>25.0</Det_Air>
         <Det_Naval>7.0</Det_Naval>
         <Det_Rail>5.0</Det_Rail>
         <WpnOrHpIdx_0>268</WpnOrHpIdx_0>
@@ -1910,7 +1910,7 @@
         <EngineSound>245</EngineSound>
         <MaxAlt>340</MaxAlt>
         <MinAlt>10</MinAlt>
-        <CruiseAlt>150</CruiseAlt>
+        <CruiseAlt>160</CruiseAlt>
         <MaxSpeed>920</MaxSpeed>
         <RadarIdx>113</RadarIdx>
         <NumberOfCrew>1</NumberOfCrew>
@@ -2600,7 +2600,7 @@
         <EngineSound>246</EngineSound>
         <MaxAlt>550</MaxAlt>
         <MinAlt>50</MinAlt>
-        <CruiseAlt>240</CruiseAlt>
+        <CruiseAlt>260</CruiseAlt>
         <MaxSpeed>1200</MaxSpeed>
         <RadarIdx>84</RadarIdx>
         <NumberOfCrew>2</NumberOfCrew>
@@ -2818,15 +2818,15 @@
         <WpnCount_1>120</WpnCount_1>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>70</Dam_Penetration>
-        <Dam_HighExplosive>128</Dam_HighExplosive>
+        <Dam_HighExplosive>140</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>128</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Incendairy>140</Dam_Incendairy>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>100</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>130</Dam_Nuclear>
+        <Dam_Other>130</Dam_Other>
     </VCD>
     <VCD Num="38">
         <CtIdx>161</CtIdx>
@@ -2912,13 +2912,13 @@
         <Flags>1073743872</Flags>
         <Name>MiG-25</Name>
         <NCTR>MG25</NCTR>
-        <RadarCs>1.158115</RadarCs>
+        <RadarCs>1.461442</RadarCs>
         <MaxWeight>90908</MaxWeight>
         <EmptyWeight>44092</EmptyWeight>
         <FuelWeight>29961</FuelWeight>
         <FuelRate>180</FuelRate>
         <EngineSound>246</EngineSound>
-        <MaxAlt>550</MaxAlt>
+        <MaxAlt>650</MaxAlt>
         <MinAlt>10</MinAlt>
         <CruiseAlt>310</CruiseAlt>
         <MaxSpeed>2500</MaxSpeed>
@@ -2988,7 +2988,7 @@
         <Flags>1611401216</Flags>
         <Name>MiG-31</Name>
         <NCTR>MG31</NCTR>
-        <RadarCs>1.330325</RadarCs>
+        <RadarCs>1.461442</RadarCs>
         <MaxWeight>101851</MaxWeight>
         <EmptyWeight>48115</EmptyWeight>
         <FuelWeight>29899</FuelWeight>
@@ -3780,7 +3780,7 @@
         <FuelWeight>32773</FuelWeight>
         <FuelRate>92</FuelRate>
         <EngineSound>247</EngineSound>
-        <MaxAlt>300</MaxAlt>
+        <MaxAlt>400</MaxAlt>
         <MinAlt>5</MinAlt>
         <CruiseAlt>180</CruiseAlt>
         <MaxSpeed>1000</MaxSpeed>
@@ -4328,11 +4328,11 @@
         <WpnCount_1>72</WpnCount_1>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>140</Dam_Penetration>
-        <Dam_HighExplosive>105</Dam_HighExplosive>
+        <Dam_HighExplosive>150</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>1</Dam_Incendairy>
-        <Dam_Proximity>35</Dam_Proximity>
-        <Dam_Kinetic>35</Dam_Kinetic>
+        <Dam_Incendairy>140</Dam_Incendairy>
+        <Dam_Proximity>130</Dam_Proximity>
+        <Dam_Kinetic>140</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>140</Dam_Nuclear>
@@ -6403,7 +6403,7 @@
         <Name>OV-10D</Name>
         <NCTR>OV10</NCTR>
         <RadarCs>0.840896</RadarCs>
-        <MaxWeight>14444</MaxWeight>
+        <MaxWeight>14844</MaxWeight>
         <EmptyWeight>7190</EmptyWeight>
         <FuelWeight>1686</FuelWeight>
         <FuelRate>4</FuelRate>
@@ -6586,8 +6586,8 @@
         <Rng_Foot>3</Rng_Foot>
         <Rng_Wheeled>3</Rng_Wheeled>
         <Rng_Tracked>3</Rng_Tracked>
-        <Rng_LowAir>26</Rng_LowAir>
-        <Rng_Air>31</Rng_Air>
+        <Rng_LowAir>30</Rng_LowAir>
+        <Rng_Air>35</Rng_Air>
         <Rng_Naval>68</Rng_Naval>
         <Rng_Rail>3</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
@@ -7025,7 +7025,7 @@
         <WpnCount_2>200</WpnCount_2>
         <WpnCount_3>2</WpnCount_3>
         <Dam_None>50</Dam_None>
-        <Dam_Penetration>115</Dam_Penetration>
+        <Dam_Penetration>105</Dam_Penetration>
         <Dam_HighExplosive>86</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>1</Dam_Incendairy>
@@ -7033,8 +7033,8 @@
         <Dam_Kinetic>30</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>115</Dam_Nuclear>
-        <Dam_Other>115</Dam_Other>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>100</Dam_Other>
     </VCD>
     <VCD Num="94">
         <CtIdx>439</CtIdx>
@@ -7122,7 +7122,7 @@
     </VCD>
     <VCD Num="95">
         <CtIdx>1841</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>200</HitPoints>
         <Flags>2048</Flags>
         <Name>Cargo Ship Red</Name>
         <NCTR>MV</NCTR>
@@ -7241,16 +7241,16 @@
         <Det_Naval>8.0</Det_Naval>
         <Det_Rail>6.0</Det_Rail>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>64</Dam_Penetration>
+        <Dam_Penetration>95</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>100</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>130</Dam_Nuclear>
+        <Dam_Other>130</Dam_Other>
     </VCD>
     <VCD Num="97">
         <CtIdx>40</CtIdx>
@@ -7504,7 +7504,7 @@
     </VCD>
     <VCD Num="100">
         <CtIdx>583</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>200</HitPoints>
         <Flags>2048</Flags>
         <Name>Tanker LGP</Name>
         <NCTR>MV</NCTR>
@@ -8692,7 +8692,7 @@
     </VCD>
     <VCD Num="116">
         <CtIdx>582</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>200</HitPoints>
         <Flags>2048</Flags>
         <Name>Cargo Ship Blu</Name>
         <NCTR>MV</NCTR>
@@ -8758,7 +8758,7 @@
     </VCD>
     <VCD Num="117">
         <CtIdx>1842</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>200</HitPoints>
         <Flags>2048</Flags>
         <Name>Cargo Ship Han</Name>
         <NCTR>MV</NCTR>
@@ -9106,17 +9106,17 @@
     </VCD>
     <VCD Num="122">
         <CtIdx>495</CtIdx>
-        <HitPoints>60</HitPoints>
+        <HitPoints>46</HitPoints>
         <Flags>1073743872</Flags>
         <Name>AH-64A</Name>
         <NCTR>AH64</NCTR>
-        <RadarCs>0.718608</RadarCs>
+        <RadarCs>0.618608</RadarCs>
         <MaxWeight>22500</MaxWeight>
         <EmptyWeight>11387</EmptyWeight>
         <FuelWeight>2442</FuelWeight>
         <FuelRate>6</FuelRate>
         <EngineSound>235</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>296</MaxSpeed>
@@ -9151,13 +9151,13 @@
         <Rng_Naval>8</Rng_Naval>
         <Rng_Rail>8</Rng_Rail>
         <Det_NoMove>45.0</Det_NoMove>
-        <Det_Foot>3.0</Det_Foot>
-        <Det_Wheeled>6.0</Det_Wheeled>
-        <Det_Tracked>5.0</Det_Tracked>
+        <Det_Foot>4.0</Det_Foot>
+        <Det_Wheeled>8.0</Det_Wheeled>
+        <Det_Tracked>8.0</Det_Tracked>
         <Det_LowAir>6.0</Det_LowAir>
-        <Det_Air>9.0</Det_Air>
+        <Det_Air>8.0</Det_Air>
         <Det_Naval>8.0</Det_Naval>
-        <Det_Rail>6.0</Det_Rail>
+        <Det_Rail>8.0</Det_Rail>
         <WpnOrHpIdx_0>513</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>24</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>24</WpnOrHpIdx_2>
@@ -9182,7 +9182,7 @@
     </VCD>
     <VCD Num="123">
         <CtIdx>501</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>48</HitPoints>
         <Flags>1073743872</Flags>
         <Name>CH-47</Name>
         <NCTR>CH47</NCTR>
@@ -9192,9 +9192,9 @@
         <FuelWeight>6180</FuelWeight>
         <FuelRate>15</FuelRate>
         <EngineSound>238</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>50</MaxAlt>
         <MinAlt>1</MinAlt>
-        <CruiseAlt>2</CruiseAlt>
+        <CruiseAlt>3</CruiseAlt>
         <MaxSpeed>291</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>2</NumberOfCrew>
@@ -9249,7 +9249,7 @@
     <VCD Num="124">
         <CtIdx>274</CtIdx>
         <HitPoints>56</HitPoints>
-        <Flags>2048</Flags>
+        <Flags>1073743872</Flags>
         <Name>MiG-21MF</Name>
         <NCTR>MG21</NCTR>
         <RadarCs>1.272260</RadarCs>
@@ -9258,7 +9258,7 @@
         <FuelWeight>4437</FuelWeight>
         <FuelRate>55</FuelRate>
         <EngineSound>245</EngineSound>
-        <MaxAlt>350</MaxAlt>
+        <MaxAlt>500</MaxAlt>
         <MinAlt>10</MinAlt>
         <CruiseAlt>190</CruiseAlt>
         <MaxSpeed>1050</MaxSpeed>
@@ -9550,17 +9550,17 @@
     </VCD>
     <VCD Num="128">
         <CtIdx>594</CtIdx>
-        <HitPoints>56</HitPoints>
+        <HitPoints>42</HitPoints>
         <Flags>1073743872</Flags>
         <Name>AH-1S</Name>
         <NCTR>AH1</NCTR>
-        <RadarCs>0.778158</RadarCs>
+        <RadarCs>0.678158</RadarCs>
         <MaxWeight>12500</MaxWeight>
         <EmptyWeight>6598</EmptyWeight>
         <FuelWeight>2086</FuelWeight>
         <FuelRate>4</FuelRate>
         <EngineSound>234</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>305</MaxSpeed>
@@ -9595,13 +9595,13 @@
         <Rng_Naval>3</Rng_Naval>
         <Rng_Rail>3</Rng_Rail>
         <Det_NoMove>45.0</Det_NoMove>
-        <Det_Foot>3.0</Det_Foot>
+        <Det_Foot>4.0</Det_Foot>
         <Det_Wheeled>6.0</Det_Wheeled>
-        <Det_Tracked>5.0</Det_Tracked>
+        <Det_Tracked>6.0</Det_Tracked>
         <Det_LowAir>6.0</Det_LowAir>
-        <Det_Air>9.0</Det_Air>
+        <Det_Air>8.0</Det_Air>
         <Det_Naval>8.0</Det_Naval>
-        <Det_Rail>6.0</Det_Rail>
+        <Det_Rail>8.0</Det_Rail>
         <WpnOrHpIdx_0>490</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>22</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>23</WpnOrHpIdx_2>
@@ -9804,7 +9804,7 @@
         <EngineSound>250</EngineSound>
         <MaxAlt>380</MaxAlt>
         <MinAlt>180</MinAlt>
-        <CruiseAlt>280</CruiseAlt>
+        <CruiseAlt>240</CruiseAlt>
         <MaxSpeed>860</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>6</NumberOfCrew>
@@ -9858,7 +9858,7 @@
     </VCD>
     <VCD Num="132">
         <CtIdx>598</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>48</HitPoints>
         <Flags>1073743872</Flags>
         <Name>CH-53</Name>
         <NCTR>CH53</NCTR>
@@ -9868,9 +9868,9 @@
         <FuelWeight>6500</FuelWeight>
         <FuelRate>10</FuelRate>
         <EngineSound>238</EngineSound>
-        <MaxAlt>5</MaxAlt>
+        <MaxAlt>50</MaxAlt>
         <MinAlt>1</MinAlt>
-        <CruiseAlt>50</CruiseAlt>
+        <CruiseAlt>4</CruiseAlt>
         <MaxSpeed>315</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>2</NumberOfCrew>
@@ -9924,17 +9924,17 @@
     </VCD>
     <VCD Num="133">
         <CtIdx>365</CtIdx>
-        <HitPoints>34</HitPoints>
+        <HitPoints>42</HitPoints>
         <Flags>1073743872</Flags>
         <Name>SA-342 Gazelle</Name>
         <NCTR>KA52</NCTR>
-        <RadarCs>0.778200</RadarCs>
+        <RadarCs>0.678200</RadarCs>
         <MaxWeight>4410</MaxWeight>
         <EmptyWeight>1985</EmptyWeight>
         <FuelWeight>1600</FuelWeight>
         <FuelRate>3</FuelRate>
         <EngineSound>237</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>315</MaxSpeed>
@@ -9994,7 +9994,7 @@
     </VCD>
     <VCD Num="134">
         <CtIdx>600</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>40</HitPoints>
         <Flags>2048</Flags>
         <Name>MD-500</Name>
         <NCTR>HELO</NCTR>
@@ -10004,7 +10004,7 @@
         <FuelWeight>1200</FuelWeight>
         <FuelRate>3</FuelRate>
         <EngineSound>234</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>282</MaxSpeed>
@@ -10064,17 +10064,17 @@
     </VCD>
     <VCD Num="135">
         <CtIdx>601</CtIdx>
-        <HitPoints>60</HitPoints>
+        <HitPoints>50</HitPoints>
         <Flags>1073743872</Flags>
         <Name>Mi-24</Name>
         <NCTR>MI24</NCTR>
-        <RadarCs>0.840896</RadarCs>
-        <MaxWeight>24251</MaxWeight>
+        <RadarCs>0.640896</RadarCs>
+        <MaxWeight>26851</MaxWeight>
         <EmptyWeight>18519</EmptyWeight>
         <FuelWeight>3000</FuelWeight>
         <FuelRate>8</FuelRate>
         <EngineSound>235</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>335</MaxSpeed>
@@ -10109,11 +10109,11 @@
         <Rng_Naval>3</Rng_Naval>
         <Rng_Rail>3</Rng_Rail>
         <Det_NoMove>45.0</Det_NoMove>
-        <Det_Foot>3.0</Det_Foot>
+        <Det_Foot>4.0</Det_Foot>
         <Det_Wheeled>6.0</Det_Wheeled>
-        <Det_Tracked>5.0</Det_Tracked>
+        <Det_Tracked>6.0</Det_Tracked>
         <Det_LowAir>6.0</Det_LowAir>
-        <Det_Air>9.0</Det_Air>
+        <Det_Air>8.0</Det_Air>
         <Det_Naval>8.0</Det_Naval>
         <Det_Rail>6.0</Det_Rail>
         <WpnOrHpIdx_0>472</WpnOrHpIdx_0>
@@ -10156,7 +10156,7 @@
         <EngineSound>236</EngineSound>
         <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
-        <CruiseAlt>60</CruiseAlt>
+        <CruiseAlt>4</CruiseAlt>
         <MaxSpeed>296</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>5</NumberOfCrew>
@@ -10212,22 +10212,22 @@
         <CtIdx>606</CtIdx>
         <HitPoints>45</HitPoints>
         <Flags>2048</Flags>
-        <Name>Mi-28</Name>
+        <Name>BO-105 HOT</Name>
         <NCTR>MI28</NCTR>
-        <RadarCs>0.778158</RadarCs>
-        <MaxWeight>25132</MaxWeight>
-        <EmptyWeight>15432</EmptyWeight>
-        <FuelWeight>3000</FuelWeight>
-        <FuelRate>32</FuelRate>
-        <EngineSound>235</EngineSound>
+        <RadarCs>0.578158</RadarCs>
+        <MaxWeight>5512</MaxWeight>
+        <EmptyWeight>3721</EmptyWeight>
+        <FuelWeight>1300</FuelWeight>
+        <FuelRate>3</FuelRate>
+        <EngineSound>234</EngineSound>
         <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
-        <CruiseAlt>50</CruiseAlt>
-        <MaxSpeed>335</MaxSpeed>
+        <CruiseAlt>3</CruiseAlt>
+        <MaxSpeed>305</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>2</NumberOfCrew>
-        <RackFlags>30</RackFlags>
-        <VisibleFlags>30</VisibleFlags>
+        <RackFlags>6</RackFlags>
+        <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>159</CallsignIdx>
         <CallsignSlots>10</CallsignSlots>
         <Hit_NoMove>30</Hit_NoMove>
@@ -10255,23 +10255,17 @@
         <Rng_Naval>5</Rng_Naval>
         <Rng_Rail>5</Rng_Rail>
         <Det_NoMove>45.0</Det_NoMove>
-        <Det_Foot>3.0</Det_Foot>
+        <Det_Foot>4.0</Det_Foot>
         <Det_Wheeled>6.0</Det_Wheeled>
-        <Det_Tracked>5.0</Det_Tracked>
+        <Det_Tracked>6.0</Det_Tracked>
         <Det_LowAir>6.0</Det_LowAir>
-        <Det_Air>9.0</Det_Air>
+        <Det_Air>8.0</Det_Air>
         <Det_Naval>8.0</Det_Naval>
-        <Det_Rail>6.0</Det_Rail>
-        <WpnOrHpIdx_0>472</WpnOrHpIdx_0>
+        <Det_Rail>8.0</Det_Rail>
         <WpnOrHpIdx_1>53</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>53</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>53</WpnOrHpIdx_3>
-        <WpnOrHpIdx_4>53</WpnOrHpIdx_4>
-        <WpnCount_0>147</WpnCount_0>
         <WpnCount_1>255</WpnCount_1>
         <WpnCount_2>255</WpnCount_2>
-        <WpnCount_3>255</WpnCount_3>
-        <WpnCount_4>255</WpnCount_4>
         <Dam_None>100</Dam_None>
         <Dam_Penetration>75</Dam_Penetration>
         <Dam_HighExplosive>100</Dam_HighExplosive>
@@ -10286,11 +10280,11 @@
     </VCD>
     <VCD Num="138">
         <CtIdx>608</CtIdx>
-        <HitPoints>52</HitPoints>
+        <HitPoints>48</HitPoints>
         <Flags>2048</Flags>
         <Name>Mi-8</Name>
         <NCTR>MI8</NCTR>
-        <RadarCs>0.786854</RadarCs>
+        <RadarCs>0.686854</RadarCs>
         <MaxWeight>29455</MaxWeight>
         <EmptyWeight>16799</EmptyWeight>
         <FuelWeight>3200</FuelWeight>
@@ -10338,14 +10332,14 @@
         <Det_Air>6.0</Det_Air>
         <Det_Naval>5.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
-        <WpnOrHpIdx_0>471</WpnOrHpIdx_0>
+        <WpnOrHpIdx_0>472</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>51</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>52</WpnOrHpIdx_2>
         <WpnOrHpIdx_3>525</WpnOrHpIdx_3>
         <WpnOrHpIdx_4>525</WpnOrHpIdx_4>
         <WpnOrHpIdx_5>52</WpnOrHpIdx_5>
         <WpnOrHpIdx_6>51</WpnOrHpIdx_6>
-        <WpnCount_0>50</WpnCount_0>
+        <WpnCount_0>100</WpnCount_0>
         <WpnCount_1>255</WpnCount_1>
         <WpnCount_2>255</WpnCount_2>
         <WpnCount_3>255</WpnCount_3>
@@ -10366,7 +10360,7 @@
     </VCD>
     <VCD Num="139">
         <CtIdx>612</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>36</HitPoints>
         <Flags>1073743872</Flags>
         <Name>OH-58D</Name>
         <NCTR>OH58</NCTR>
@@ -10376,7 +10370,7 @@
         <FuelWeight>752</FuelWeight>
         <FuelRate>2</FuelRate>
         <EngineSound>236</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>219</MaxSpeed>
@@ -10510,16 +10504,16 @@
     </VCD>
     <VCD Num="141">
         <CtIdx>637</CtIdx>
-        <HitPoints>50</HitPoints>
+        <HitPoints>42</HitPoints>
         <Flags>2048</Flags>
         <Name>UH-1 IRIAF</Name>
         <NCTR>UH1</NCTR>
-        <RadarCs>0.778158</RadarCs>
+        <RadarCs>0.678158</RadarCs>
         <MaxWeight>10000</MaxWeight>
         <EmptyWeight>6000</EmptyWeight>
         <FuelWeight>1200</FuelWeight>
         <FuelRate>4</FuelRate>
-        <EngineSound>235</EngineSound>
+        <EngineSound>234</EngineSound>
         <MaxAlt>3</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
@@ -10578,11 +10572,11 @@
     </VCD>
     <VCD Num="142">
         <CtIdx>638</CtIdx>
-        <HitPoints>52</HitPoints>
+        <HitPoints>48</HitPoints>
         <Flags>1073743872</Flags>
         <Name>UH-60L</Name>
         <NCTR>UH60</NCTR>
-        <RadarCs>0.740083</RadarCs>
+        <RadarCs>0.640083</RadarCs>
         <MaxWeight>20250</MaxWeight>
         <EmptyWeight>11284</EmptyWeight>
         <FuelWeight>6091</FuelWeight>
@@ -10805,19 +10799,19 @@
     <VCD Num="145">
         <CtIdx>522</CtIdx>
         <HitPoints>67</HitPoints>
-        <Flags>2048</Flags>
-        <Name>An-72</Name>
+        <Flags>1073743872</Flags>
+        <Name>VC-10</Name>
         <NCTR>AN72</NCTR>
         <RadarCs>2.114743</RadarCs>
-        <MaxWeight>76060</MaxWeight>
-        <EmptyWeight>42000</EmptyWeight>
-        <FuelWeight>28550</FuelWeight>
+        <MaxWeight>286060</MaxWeight>
+        <EmptyWeight>139505</EmptyWeight>
+        <FuelWeight>144233</FuelWeight>
         <FuelRate>50</FuelRate>
         <EngineSound>250</EngineSound>
         <MaxAlt>380</MaxAlt>
         <MinAlt>140</MinAlt>
-        <CruiseAlt>300</CruiseAlt>
-        <MaxSpeed>700</MaxSpeed>
+        <CruiseAlt>280</CruiseAlt>
+        <MaxSpeed>880</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>3</NumberOfCrew>
         <RackFlags>0</RackFlags>
@@ -11330,17 +11324,17 @@
     </VCD>
     <VCD Num="152">
         <CtIdx>655</CtIdx>
-        <HitPoints>60</HitPoints>
+        <HitPoints>46</HitPoints>
         <Flags>1073743872</Flags>
         <Name>AH-64D</Name>
         <NCTR>AH64</NCTR>
-        <RadarCs>0.718608</RadarCs>
+        <RadarCs>0.618608</RadarCs>
         <MaxWeight>21000</MaxWeight>
         <EmptyWeight>11800</EmptyWeight>
         <FuelWeight>2442</FuelWeight>
         <FuelRate>6</FuelRate>
         <EngineSound>235</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>296</MaxSpeed>
@@ -11355,8 +11349,8 @@
         <Hit_Wheeled>50</Hit_Wheeled>
         <Hit_Tracked>50</Hit_Tracked>
         <Hit_LowAir>15</Hit_LowAir>
-        <Hit_Air>10</Hit_Air>
-        <Hit_Naval>35</Hit_Naval>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>25</Hit_Naval>
         <Hit_Rail>25</Hit_Rail>
         <Str_NoMove>99</Str_NoMove>
         <Str_Foot>42</Str_Foot>
@@ -11375,13 +11369,13 @@
         <Rng_Naval>8</Rng_Naval>
         <Rng_Rail>8</Rng_Rail>
         <Det_NoMove>45.0</Det_NoMove>
-        <Det_Foot>3.0</Det_Foot>
-        <Det_Wheeled>6.0</Det_Wheeled>
-        <Det_Tracked>5.0</Det_Tracked>
+        <Det_Foot>4.0</Det_Foot>
+        <Det_Wheeled>8.0</Det_Wheeled>
+        <Det_Tracked>8.0</Det_Tracked>
         <Det_LowAir>6.0</Det_LowAir>
-        <Det_Air>9.0</Det_Air>
+        <Det_Air>8.0</Det_Air>
         <Det_Naval>8.0</Det_Naval>
-        <Det_Rail>6.0</Det_Rail>
+        <Det_Rail>8.0</Det_Rail>
         <WpnOrHpIdx_0>513</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>9</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>24</WpnOrHpIdx_2>
@@ -11504,7 +11498,7 @@
         <CtIdx>5</CtIdx>
         <HitPoints>100</HitPoints>
         <Flags>2048</Flags>
-        <Name>T-80</Name>
+        <Name>Chieftain MBT</Name>
         <NCTR> </NCTR>
         <RadarCs>1.000000</RadarCs>
         <MaxWeight>0</MaxWeight>
@@ -11523,7 +11517,7 @@
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
         <Hit_NoMove>55</Hit_NoMove>
-        <Hit_Foot>20</Hit_Foot>
+        <Hit_Foot>25</Hit_Foot>
         <Hit_Wheeled>50</Hit_Wheeled>
         <Hit_Tracked>50</Hit_Tracked>
         <Hit_LowAir>5</Hit_LowAir>
@@ -11538,14 +11532,14 @@
         <Str_Air>0</Str_Air>
         <Str_Naval>0</Str_Naval>
         <Str_Rail>56</Str_Rail>
-        <Rng_NoMove>2</Rng_NoMove>
-        <Rng_Foot>2</Rng_Foot>
-        <Rng_Wheeled>2</Rng_Wheeled>
-        <Rng_Tracked>2</Rng_Tracked>
+        <Rng_NoMove>4</Rng_NoMove>
+        <Rng_Foot>4</Rng_Foot>
+        <Rng_Wheeled>4</Rng_Wheeled>
+        <Rng_Tracked>4</Rng_Tracked>
         <Rng_LowAir>2</Rng_LowAir>
         <Rng_Air>0</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
-        <Rng_Rail>2</Rng_Rail>
+        <Rng_Rail>4</Rng_Rail>
         <Det_NoMove>36.0</Det_NoMove>
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
@@ -11648,7 +11642,7 @@
     </VCD>
     <VCD Num="156">
         <CtIdx>1843</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>200</HitPoints>
         <Flags>2048</Flags>
         <Name>Cargo Ship Yel</Name>
         <NCTR>MV</NCTR>
@@ -11840,7 +11834,7 @@
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
         <Det_Tracked>4.0</Det_Tracked>
-        <Det_LowAir>127.0</Det_LowAir>
+        <Det_LowAir>132.0</Det_LowAir>
         <Det_Air>159.0</Det_Air>
         <Det_Naval>7.0</Det_Naval>
         <Det_Rail>5.0</Det_Rail>
@@ -11858,7 +11852,7 @@
     </VCD>
     <VCD Num="159">
         <CtIdx>1844</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>200</HitPoints>
         <Flags>2048</Flags>
         <Name>Cargo Ship Blk</Name>
         <NCTR>MV</NCTR>
@@ -12049,12 +12043,12 @@
         <WpnCount_0>50</WpnCount_0>
         <WpnCount_1>50</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>110</Dam_Penetration>
-        <Dam_HighExplosive>145</Dam_HighExplosive>
+        <Dam_Penetration>140</Dam_Penetration>
+        <Dam_HighExplosive>150</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>145</Dam_Incendairy>
-        <Dam_Proximity>70</Dam_Proximity>
-        <Dam_Kinetic>105</Dam_Kinetic>
+        <Dam_Incendairy>150</Dam_Incendairy>
+        <Dam_Proximity>130</Dam_Proximity>
+        <Dam_Kinetic>150</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>145</Dam_Nuclear>
@@ -12553,16 +12547,16 @@
         <WpnOrHpIdx_0>521</WpnOrHpIdx_0>
         <WpnCount_0>126</WpnCount_0>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>95</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>160</Dam_Proximity>
+        <Dam_Kinetic>160</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>160</Dam_Nuclear>
+        <Dam_Other>160</Dam_Other>
     </VCD>
     <VCD Num="169">
         <CtIdx>534</CtIdx>
@@ -12623,16 +12617,16 @@
         <WpnCount_0>200</WpnCount_0>
         <WpnCount_1>100</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>95</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>160</Dam_Proximity>
+        <Dam_Kinetic>160</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>160</Dam_Nuclear>
+        <Dam_Other>160</Dam_Other>
     </VCD>
     <VCD Num="170">
         <CtIdx>535</CtIdx>
@@ -12693,16 +12687,16 @@
         <WpnCount_0>6</WpnCount_0>
         <WpnCount_1>126</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>95</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>150</Dam_Proximity>
+        <Dam_Kinetic>150</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>150</Dam_Nuclear>
+        <Dam_Other>150</Dam_Other>
     </VCD>
     <VCD Num="171">
         <CtIdx>536</CtIdx>
@@ -12765,16 +12759,16 @@
         <WpnCount_1>40</WpnCount_1>
         <WpnCount_2>6</WpnCount_2>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>64</Dam_Penetration>
+        <Dam_Penetration>85</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
+        <Dam_Proximity>96</Dam_Proximity>
         <Dam_Kinetic>96</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>130</Dam_Nuclear>
+        <Dam_Other>130</Dam_Other>
     </VCD>
     <VCD Num="172">
         <CtIdx>537</CtIdx>
@@ -13477,16 +13471,16 @@
         <Det_Naval>6.0</Det_Naval>
         <Det_Rail>5.0</Det_Rail>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>64</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>160</Dam_Proximity>
+        <Dam_Kinetic>150</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>130</Dam_Nuclear>
+        <Dam_Other>130</Dam_Other>
     </VCD>
     <VCD Num="182">
         <CtIdx>548</CtIdx>
@@ -14204,7 +14198,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>5</NumberOfCrew>
-        <RackFlags>1</RackFlags>
+        <RackFlags>3</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -14212,7 +14206,7 @@
         <Hit_Foot>2</Hit_Foot>
         <Hit_Wheeled>1</Hit_Wheeled>
         <Hit_Tracked>0</Hit_Tracked>
-        <Hit_LowAir>10</Hit_LowAir>
+        <Hit_LowAir>12</Hit_LowAir>
         <Hit_Air>2</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
@@ -14225,11 +14219,11 @@
         <Str_Naval>0</Str_Naval>
         <Str_Rail>0</Str_Rail>
         <Rng_NoMove>0</Rng_NoMove>
-        <Rng_Foot>4</Rng_Foot>
-        <Rng_Wheeled>4</Rng_Wheeled>
+        <Rng_Foot>5</Rng_Foot>
+        <Rng_Wheeled>5</Rng_Wheeled>
         <Rng_Tracked>0</Rng_Tracked>
-        <Rng_LowAir>4</Rng_LowAir>
-        <Rng_Air>4</Rng_Air>
+        <Rng_LowAir>6</Rng_LowAir>
+        <Rng_Air>7</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>38.0</Det_NoMove>
@@ -14241,18 +14235,20 @@
         <Det_Naval>8.0</Det_Naval>
         <Det_Rail>6.0</Det_Rail>
         <WpnOrHpIdx_0>517</WpnOrHpIdx_0>
-        <WpnCount_0>200</WpnCount_0>
+        <WpnOrHpIdx_1>517</WpnOrHpIdx_1>
+        <WpnCount_0>250</WpnCount_0>
+        <WpnCount_1>250</WpnCount_1>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>80</Dam_Penetration>
-        <Dam_HighExplosive>141</Dam_HighExplosive>
+        <Dam_HighExplosive>145</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>141</Dam_Incendairy>
-        <Dam_Proximity>70</Dam_Proximity>
-        <Dam_Kinetic>105</Dam_Kinetic>
+        <Dam_Incendairy>145</Dam_Incendairy>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>145</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>141</Dam_Nuclear>
-        <Dam_Other>141</Dam_Other>
+        <Dam_Nuclear>145</Dam_Nuclear>
+        <Dam_Other>145</Dam_Other>
     </VCD>
     <VCD Num="193">
         <CtIdx>682</CtIdx>
@@ -14432,12 +14428,12 @@
         <Str_Air>5</Str_Air>
         <Str_Naval>0</Str_Naval>
         <Str_Rail>0</Str_Rail>
-        <Rng_NoMove>10</Rng_NoMove>
-        <Rng_Foot>10</Rng_Foot>
-        <Rng_Wheeled>10</Rng_Wheeled>
-        <Rng_Tracked>10</Rng_Tracked>
-        <Rng_LowAir>9</Rng_LowAir>
-        <Rng_Air>10</Rng_Air>
+        <Rng_NoMove>12</Rng_NoMove>
+        <Rng_Foot>12</Rng_Foot>
+        <Rng_Wheeled>12</Rng_Wheeled>
+        <Rng_Tracked>12</Rng_Tracked>
+        <Rng_LowAir>10</Rng_LowAir>
+        <Rng_Air>12</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>38.0</Det_NoMove>
@@ -14452,15 +14448,15 @@
         <WpnCount_0>100</WpnCount_0>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>70</Dam_Penetration>
-        <Dam_HighExplosive>141</Dam_HighExplosive>
+        <Dam_HighExplosive>145</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>141</Dam_Incendairy>
-        <Dam_Proximity>70</Dam_Proximity>
-        <Dam_Kinetic>105</Dam_Kinetic>
+        <Dam_Incendairy>145</Dam_Incendairy>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>130</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>141</Dam_Nuclear>
-        <Dam_Other>141</Dam_Other>
+        <Dam_Nuclear>145</Dam_Nuclear>
+        <Dam_Other>145</Dam_Other>
     </VCD>
     <VCD Num="196">
         <CtIdx>685</CtIdx>
@@ -14520,15 +14516,15 @@
         <WpnCount_0>150</WpnCount_0>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>70</Dam_Penetration>
-        <Dam_HighExplosive>141</Dam_HighExplosive>
+        <Dam_HighExplosive>145</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>141</Dam_Incendairy>
-        <Dam_Proximity>70</Dam_Proximity>
-        <Dam_Kinetic>105</Dam_Kinetic>
+        <Dam_Incendairy>145</Dam_Incendairy>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>130</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>141</Dam_Nuclear>
-        <Dam_Other>141</Dam_Other>
+        <Dam_Nuclear>145</Dam_Nuclear>
+        <Dam_Other>145</Dam_Other>
     </VCD>
     <VCD Num="197">
         <CtIdx>686</CtIdx>
@@ -14661,16 +14657,16 @@
         <WpnOrHpIdx_0>521</WpnOrHpIdx_0>
         <WpnCount_0>96</WpnCount_0>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>95</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>160</Dam_Proximity>
+        <Dam_Kinetic>160</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>160</Dam_Nuclear>
+        <Dam_Other>160</Dam_Other>
     </VCD>
     <VCD Num="199">
         <CtIdx>688</CtIdx>
@@ -14729,16 +14725,16 @@
         <WpnOrHpIdx_0>527</WpnOrHpIdx_0>
         <WpnCount_0>200</WpnCount_0>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>83</Dam_Penetration>
-        <Dam_HighExplosive>208</Dam_HighExplosive>
+        <Dam_Penetration>95</Dam_Penetration>
+        <Dam_HighExplosive>200</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>208</Dam_Incendairy>
-        <Dam_Proximity>83</Dam_Proximity>
-        <Dam_Kinetic>125</Dam_Kinetic>
+        <Dam_Incendairy>200</Dam_Incendairy>
+        <Dam_Proximity>160</Dam_Proximity>
+        <Dam_Kinetic>160</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>166</Dam_Nuclear>
-        <Dam_Other>166</Dam_Other>
+        <Dam_Nuclear>160</Dam_Nuclear>
+        <Dam_Other>160</Dam_Other>
     </VCD>
     <VCD Num="200">
         <CtIdx>689</CtIdx>
@@ -14874,17 +14870,17 @@
     </VCD>
     <VCD Num="202">
         <CtIdx>1861</CtIdx>
-        <HitPoints>48</HitPoints>
+        <HitPoints>50</HitPoints>
         <Flags>1073743872</Flags>
         <Name>Super Frelon</Name>
         <NCTR>KA52</NCTR>
-        <RadarCs>0.778200</RadarCs>
+        <RadarCs>0.678200</RadarCs>
         <MaxWeight>27560</MaxWeight>
         <EmptyWeight>15130</EmptyWeight>
         <FuelWeight>8763</FuelWeight>
         <FuelRate>10</FuelRate>
         <EngineSound>237</EngineSound>
-        <MaxAlt>6</MaxAlt>
+        <MaxAlt>50</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>350</MaxSpeed>
@@ -15003,16 +14999,16 @@
         <WpnCount_0>4</WpnCount_0>
         <WpnCount_1>200</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>95</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>160</Dam_Proximity>
+        <Dam_Kinetic>160</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>160</Dam_Nuclear>
+        <Dam_Other>160</Dam_Other>
     </VCD>
     <VCD Num="204">
         <CtIdx>2067</CtIdx>
@@ -15020,13 +15016,13 @@
         <Flags>1073743872</Flags>
         <Name>AH-64E</Name>
         <NCTR>AH64</NCTR>
-        <RadarCs>0.718608</RadarCs>
+        <RadarCs>0.618608</RadarCs>
         <MaxWeight>21000</MaxWeight>
         <EmptyWeight>11800</EmptyWeight>
         <FuelWeight>2442</FuelWeight>
         <FuelRate>25</FuelRate>
         <EngineSound>235</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>296</MaxSpeed>
@@ -15656,8 +15652,8 @@
         <Rng_Foot>0</Rng_Foot>
         <Rng_Wheeled>0</Rng_Wheeled>
         <Rng_Tracked>0</Rng_Tracked>
-        <Rng_LowAir>19</Rng_LowAir>
-        <Rng_Air>22</Rng_Air>
+        <Rng_LowAir>20</Rng_LowAir>
+        <Rng_Air>24</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>36.0</Det_NoMove>
@@ -15714,8 +15710,8 @@
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
         <Hit_Tracked>0</Hit_Tracked>
-        <Hit_LowAir>15</Hit_LowAir>
-        <Hit_Air>15</Hit_Air>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>20</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
         <Str_NoMove>0</Str_NoMove>
@@ -16035,12 +16031,12 @@
         <Dam_HighExplosive>154</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>154</Dam_Incendairy>
-        <Dam_Proximity>62</Dam_Proximity>
-        <Dam_Kinetic>93</Dam_Kinetic>
+        <Dam_Proximity>154</Dam_Proximity>
+        <Dam_Kinetic>154</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>124</Dam_Nuclear>
-        <Dam_Other>124</Dam_Other>
+        <Dam_Nuclear>154</Dam_Nuclear>
+        <Dam_Other>154</Dam_Other>
     </VCD>
     <VCD Num="218">
         <CtIdx>708</CtIdx>
@@ -16101,26 +16097,26 @@
         <Dam_HighExplosive>154</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>154</Dam_Incendairy>
-        <Dam_Proximity>62</Dam_Proximity>
-        <Dam_Kinetic>93</Dam_Kinetic>
+        <Dam_Proximity>154</Dam_Proximity>
+        <Dam_Kinetic>100</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>124</Dam_Nuclear>
-        <Dam_Other>124</Dam_Other>
+        <Dam_Nuclear>154</Dam_Nuclear>
+        <Dam_Other>154</Dam_Other>
     </VCD>
     <VCD Num="219">
         <CtIdx>2134</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>48</HitPoints>
         <Flags>1073743872</Flags>
         <Name>MH-60R</Name>
         <NCTR>MH60</NCTR>
-        <RadarCs>0.786900</RadarCs>
+        <RadarCs>0.686900</RadarCs>
         <MaxWeight>20250</MaxWeight>
         <EmptyWeight>11284</EmptyWeight>
         <FuelWeight>4530</FuelWeight>
         <FuelRate>10</FuelRate>
         <EngineSound>235</EngineSound>
-        <MaxAlt>3</MaxAlt>
+        <MaxAlt>5</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>278</MaxSpeed>
@@ -16326,7 +16322,7 @@
         <CtIdx>1862</CtIdx>
         <HitPoints>100</HitPoints>
         <Flags>1214464</Flags>
-        <Name>GDF-005</Name>
+        <Name>Skyguard GDF</Name>
         <NCTR> </NCTR>
         <RadarCs>1.000000</RadarCs>
         <MaxWeight>0</MaxWeight>
@@ -16356,19 +16352,19 @@
         <Str_Foot>0</Str_Foot>
         <Str_Wheeled>0</Str_Wheeled>
         <Str_Tracked>0</Str_Tracked>
-        <Str_LowAir>20</Str_LowAir>
-        <Str_Air>5</Str_Air>
+        <Str_LowAir>35</Str_LowAir>
+        <Str_Air>15</Str_Air>
         <Str_Naval>0</Str_Naval>
         <Str_Rail>0</Str_Rail>
         <Rng_NoMove>0</Rng_NoMove>
         <Rng_Foot>0</Rng_Foot>
         <Rng_Wheeled>0</Rng_Wheeled>
         <Rng_Tracked>0</Rng_Tracked>
-        <Rng_LowAir>3</Rng_LowAir>
-        <Rng_Air>3</Rng_Air>
+        <Rng_LowAir>5</Rng_LowAir>
+        <Rng_Air>5</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
-        <Det_NoMove>36.0</Det_NoMove>
+        <Det_NoMove>20.0</Det_NoMove>
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
         <Det_Tracked>4.0</Det_Tracked>
@@ -16410,7 +16406,7 @@
         <MaxSpeed>41</MaxSpeed>
         <RadarIdx>53</RadarIdx>
         <NumberOfCrew>150</NumberOfCrew>
-        <RackFlags>0</RackFlags>
+        <RackFlags>5</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -16599,7 +16595,7 @@
         <WpnCount_3>100</WpnCount_3>
         <WpnCount_4>6</WpnCount_4>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>110</Dam_Penetration>
+        <Dam_Penetration>105</Dam_Penetration>
         <Dam_HighExplosive>83</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>1</Dam_Incendairy>
@@ -16607,8 +16603,8 @@
         <Dam_Kinetic>28</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>110</Dam_Nuclear>
-        <Dam_Other>110</Dam_Other>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>100</Dam_Other>
     </VCD>
     <VCD Num="226">
         <CtIdx>741</CtIdx>
@@ -16675,7 +16671,7 @@
         <WpnCount_3>6</WpnCount_3>
         <WpnCount_4>100</WpnCount_4>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>110</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>83</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>1</Dam_Incendairy>
@@ -16683,8 +16679,8 @@
         <Dam_Kinetic>28</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>110</Dam_Nuclear>
-        <Dam_Other>110</Dam_Other>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>100</Dam_Other>
     </VCD>
     <VCD Num="227">
         <CtIdx>745</CtIdx>
@@ -16749,7 +16745,7 @@
         <WpnCount_2>5</WpnCount_2>
         <WpnCount_3>100</WpnCount_3>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>105</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>82</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>1</Dam_Incendairy>
@@ -16757,8 +16753,8 @@
         <Dam_Kinetic>28</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>110</Dam_Nuclear>
-        <Dam_Other>110</Dam_Other>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>100</Dam_Other>
     </VCD>
     <VCD Num="228">
         <CtIdx>747</CtIdx>
@@ -17121,7 +17117,7 @@
         <WpnCount_2>48</WpnCount_2>
         <WpnCount_3>2</WpnCount_3>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>115</Dam_Penetration>
+        <Dam_Penetration>105</Dam_Penetration>
         <Dam_HighExplosive>86</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>1</Dam_Incendairy>
@@ -17129,8 +17125,8 @@
         <Dam_Kinetic>30</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>115</Dam_Nuclear>
-        <Dam_Other>115</Dam_Other>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>100</Dam_Other>
     </VCD>
     <VCD Num="233">
         <CtIdx>753</CtIdx>
@@ -17191,7 +17187,7 @@
         <WpnCount_0>6</WpnCount_0>
         <WpnCount_1>250</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>115</Dam_Penetration>
+        <Dam_Penetration>100</Dam_Penetration>
         <Dam_HighExplosive>86</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>1</Dam_Incendairy>
@@ -17199,8 +17195,8 @@
         <Dam_Kinetic>30</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>115</Dam_Nuclear>
-        <Dam_Other>115</Dam_Other>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>100</Dam_Other>
     </VCD>
     <VCD Num="234">
         <CtIdx>755</CtIdx>
@@ -17298,8 +17294,8 @@
         <CallsignSlots>58</CallsignSlots>
         <Hit_NoMove>30</Hit_NoMove>
         <Hit_Foot>30</Hit_Foot>
-        <Hit_Wheeled>30</Hit_Wheeled>
-        <Hit_Tracked>30</Hit_Tracked>
+        <Hit_Wheeled>35</Hit_Wheeled>
+        <Hit_Tracked>35</Hit_Tracked>
         <Hit_LowAir>5</Hit_LowAir>
         <Hit_Air>0</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
@@ -17319,7 +17315,7 @@
         <Rng_LowAir>2</Rng_LowAir>
         <Rng_Air>0</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
-        <Rng_Rail>2</Rng_Rail>
+        <Rng_Rail>4</Rng_Rail>
         <Det_NoMove>30.0</Det_NoMove>
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
@@ -17331,7 +17327,7 @@
         <WpnOrHpIdx_0>471</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>319</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>527</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>223</WpnOrHpIdx_3>
+        <WpnOrHpIdx_3>222</WpnOrHpIdx_3>
         <WpnCount_0>50</WpnCount_0>
         <WpnCount_1>6</WpnCount_1>
         <WpnCount_2>96</WpnCount_2>
@@ -17472,8 +17468,8 @@
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>6.0</Det_Wheeled>
         <Det_Tracked>4.0</Det_Tracked>
-        <Det_LowAir>14.0</Det_LowAir>
-        <Det_Air>17.0</Det_Air>
+        <Det_LowAir>15.0</Det_LowAir>
+        <Det_Air>20.0</Det_Air>
         <Det_Naval>8.0</Det_Naval>
         <Det_Rail>6.0</Det_Rail>
         <WpnOrHpIdx_0>416</WpnOrHpIdx_0>
@@ -17629,7 +17625,7 @@
         <WpnOrHpIdx_0>478</WpnOrHpIdx_0>
         <WpnCount_0>40</WpnCount_0>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>64</Dam_Penetration>
+        <Dam_Penetration>96</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
@@ -17765,7 +17761,7 @@
         <WpnOrHpIdx_0>501</WpnOrHpIdx_0>
         <WpnCount_0>12</WpnCount_0>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>75</Dam_Penetration>
+        <Dam_Penetration>86</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
@@ -18128,17 +18124,17 @@
         <Det_Air>8.0</Det_Air>
         <Det_Naval>6.0</Det_Naval>
         <Det_Rail>5.0</Det_Rail>
-        <Dam_None>100</Dam_None>
-        <Dam_Penetration>64</Dam_Penetration>
+        <Dam_None>50</Dam_None>
+        <Dam_Penetration>95</Dam_Penetration>
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>100</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>130</Dam_Nuclear>
+        <Dam_Other>130</Dam_Other>
     </VCD>
     <VCD Num="247">
         <CtIdx>555</CtIdx>
@@ -19016,12 +19012,12 @@
         <Str_Air>10</Str_Air>
         <Str_Naval>0</Str_Naval>
         <Str_Rail>0</Str_Rail>
-        <Rng_NoMove>6</Rng_NoMove>
-        <Rng_Foot>6</Rng_Foot>
-        <Rng_Wheeled>6</Rng_Wheeled>
+        <Rng_NoMove>7</Rng_NoMove>
+        <Rng_Foot>7</Rng_Foot>
+        <Rng_Wheeled>7</Rng_Wheeled>
         <Rng_Tracked>6</Rng_Tracked>
-        <Rng_LowAir>5</Rng_LowAir>
-        <Rng_Air>6</Rng_Air>
+        <Rng_LowAir>6</Rng_LowAir>
+        <Rng_Air>7</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>38.0</Det_NoMove>
@@ -19253,11 +19249,11 @@
         <WpnCount_0>40</WpnCount_0>
         <WpnCount_1>96</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>83</Dam_Penetration>
+        <Dam_Penetration>85</Dam_Penetration>
         <Dam_HighExplosive>250</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>166</Dam_Incendairy>
-        <Dam_Proximity>83</Dam_Proximity>
+        <Dam_Proximity>100</Dam_Proximity>
         <Dam_Kinetic>250</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
@@ -19323,11 +19319,11 @@
         <WpnCount_0>40</WpnCount_0>
         <WpnCount_1>96</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>73</Dam_Penetration>
+        <Dam_Penetration>75</Dam_Penetration>
         <Dam_HighExplosive>250</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>147</Dam_Incendairy>
-        <Dam_Proximity>73</Dam_Proximity>
+        <Dam_Incendairy>150</Dam_Incendairy>
+        <Dam_Proximity>75</Dam_Proximity>
         <Dam_Kinetic>250</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
@@ -19466,7 +19462,7 @@
         <Dam_Penetration>75</Dam_Penetration>
         <Dam_HighExplosive>250</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>147</Dam_Incendairy>
+        <Dam_Incendairy>150</Dam_Incendairy>
         <Dam_Proximity>75</Dam_Proximity>
         <Dam_Kinetic>250</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
@@ -19648,7 +19644,7 @@
     </VCD>
     <VCD Num="268">
         <CtIdx>818</CtIdx>
-        <HitPoints>300</HitPoints>
+        <HitPoints>350</HitPoints>
         <Flags>2048</Flags>
         <Name>Ticon CLS Mk26</Name>
         <NCTR>CG</NCTR>
@@ -20120,9 +20116,9 @@
     </VCD>
     <VCD Num="274">
         <CtIdx>824</CtIdx>
-        <HitPoints>200</HitPoints>
+        <HitPoints>350</HitPoints>
         <Flags>2048</Flags>
-        <Name>Ulsan CLS</Name>
+        <Name>Ibn Khaldun FF</Name>
         <NCTR>FF</NCTR>
         <RadarCs>1.000000</RadarCs>
         <MaxWeight>0</MaxWeight>
@@ -20136,17 +20132,17 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>57</RadarIdx>
         <NumberOfCrew>150</NumberOfCrew>
-        <RackFlags>0</RackFlags>
+        <RackFlags>27</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
         <Hit_NoMove>20</Hit_NoMove>
-        <Hit_Foot>5</Hit_Foot>
+        <Hit_Foot>15</Hit_Foot>
         <Hit_Wheeled>10</Hit_Wheeled>
         <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>0</Hit_LowAir>
-        <Hit_Air>0</Hit_Air>
-        <Hit_Naval>0</Hit_Naval>
+        <Hit_LowAir>15</Hit_LowAir>
+        <Hit_Air>2</Hit_Air>
+        <Hit_Naval>5</Hit_Naval>
         <Hit_Rail>10</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
@@ -20156,39 +20152,49 @@
         <Str_Air>46</Str_Air>
         <Str_Naval>205</Str_Naval>
         <Str_Rail>77</Str_Rail>
-        <Rng_NoMove>4</Rng_NoMove>
-        <Rng_Foot>4</Rng_Foot>
-        <Rng_Wheeled>4</Rng_Wheeled>
+        <Rng_NoMove>7</Rng_NoMove>
+        <Rng_Foot>7</Rng_Foot>
+        <Rng_Wheeled>7</Rng_Wheeled>
         <Rng_Tracked>4</Rng_Tracked>
-        <Rng_LowAir>0</Rng_LowAir>
-        <Rng_Air>0</Rng_Air>
-        <Rng_Naval>0</Rng_Naval>
+        <Rng_LowAir>6</Rng_LowAir>
+        <Rng_Air>7</Rng_Air>
+        <Rng_Naval>2</Rng_Naval>
         <Rng_Rail>4</Rng_Rail>
         <Det_NoMove>30.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>119.0</Det_LowAir>
+        <Det_LowAir>122.0</Det_LowAir>
         <Det_Air>148.0</Det_Air>
         <Det_Naval>148.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
         <WpnOrHpIdx_0>519</WpnOrHpIdx_0>
-        <WpnCount_0>44</WpnCount_0>
+        <WpnOrHpIdx_1>522</WpnOrHpIdx_1>
+        <WpnOrHpIdx_2>522</WpnOrHpIdx_2>
+        <WpnOrHpIdx_3>488</WpnOrHpIdx_3>
+        <WpnOrHpIdx_4>488</WpnOrHpIdx_4>
+        <WpnOrHpIdx_5>412</WpnOrHpIdx_5>
+        <WpnCount_0>250</WpnCount_0>
+        <WpnCount_1>250</WpnCount_1>
+        <WpnCount_2>200</WpnCount_2>
+        <WpnCount_3>250</WpnCount_3>
+        <WpnCount_4>250</WpnCount_4>
+        <WpnCount_5>8</WpnCount_5>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>22</Dam_Penetration>
-        <Dam_HighExplosive>17</Dam_HighExplosive>
+        <Dam_Penetration>8</Dam_Penetration>
+        <Dam_HighExplosive>8</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>3</Dam_Incendairy>
+        <Dam_Incendairy>1</Dam_Incendairy>
         <Dam_Proximity>0</Dam_Proximity>
-        <Dam_Kinetic>4</Dam_Kinetic>
-        <Dam_Hydrostatic>34</Dam_Hydrostatic>
+        <Dam_Kinetic>1</Dam_Kinetic>
+        <Dam_Hydrostatic>15</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>33</Dam_Nuclear>
-        <Dam_Other>33</Dam_Other>
+        <Dam_Nuclear>15</Dam_Nuclear>
+        <Dam_Other>15</Dam_Other>
     </VCD>
     <VCD Num="275">
         <CtIdx>576</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>150</HitPoints>
         <Flags>2048</Flags>
         <Name>Chamsuri CLS</Name>
         <NCTR>PKM</NCTR>
@@ -20352,7 +20358,7 @@
     </VCD>
     <VCD Num="277">
         <CtIdx>578</CtIdx>
-        <HitPoints>100</HitPoints>
+        <HitPoints>150</HitPoints>
         <Flags>2048</Flags>
         <Name>Osa II CLS</Name>
         <NCTR>PHM</NCTR>
@@ -20409,22 +20415,24 @@
         <WpnOrHpIdx_2>507</WpnOrHpIdx_2>
         <WpnOrHpIdx_3>507</WpnOrHpIdx_3>
         <WpnOrHpIdx_4>507</WpnOrHpIdx_4>
+        <WpnOrHpIdx_5>412</WpnOrHpIdx_5>
         <WpnCount_0>4</WpnCount_0>
         <WpnCount_1>254</WpnCount_1>
         <WpnCount_2>254</WpnCount_2>
         <WpnCount_3>254</WpnCount_3>
         <WpnCount_4>254</WpnCount_4>
+        <WpnCount_5>8</WpnCount_5>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>26</Dam_Penetration>
-        <Dam_HighExplosive>26</Dam_HighExplosive>
+        <Dam_Penetration>15</Dam_Penetration>
+        <Dam_HighExplosive>15</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>10</Dam_Incendairy>
+        <Dam_Incendairy>5</Dam_Incendairy>
         <Dam_Proximity>0</Dam_Proximity>
-        <Dam_Kinetic>10</Dam_Kinetic>
-        <Dam_Hydrostatic>34</Dam_Hydrostatic>
+        <Dam_Kinetic>5</Dam_Kinetic>
+        <Dam_Hydrostatic>20</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>33</Dam_Nuclear>
-        <Dam_Other>33</Dam_Other>
+        <Dam_Nuclear>20</Dam_Nuclear>
+        <Dam_Other>20</Dam_Other>
     </VCD>
     <VCD Num="278">
         <CtIdx>265</CtIdx>
@@ -20879,16 +20887,16 @@
         <WpnCount_0>80</WpnCount_0>
         <WpnCount_1>48</WpnCount_1>
         <Dam_None>0</Dam_None>
-        <Dam_Penetration>70</Dam_Penetration>
-        <Dam_HighExplosive>141</Dam_HighExplosive>
+        <Dam_Penetration>140</Dam_Penetration>
+        <Dam_HighExplosive>145</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
-        <Dam_Incendairy>141</Dam_Incendairy>
-        <Dam_Proximity>70</Dam_Proximity>
-        <Dam_Kinetic>105</Dam_Kinetic>
+        <Dam_Incendairy>145</Dam_Incendairy>
+        <Dam_Proximity>130</Dam_Proximity>
+        <Dam_Kinetic>145</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>141</Dam_Nuclear>
-        <Dam_Other>141</Dam_Other>
+        <Dam_Nuclear>145</Dam_Nuclear>
+        <Dam_Other>145</Dam_Other>
     </VCD>
     <VCD Num="284">
         <CtIdx>1031</CtIdx>
@@ -21798,7 +21806,7 @@
     </VCD>
     <VCD Num="296">
         <CtIdx>651</CtIdx>
-        <HitPoints>250</HitPoints>
+        <HitPoints>300</HitPoints>
         <Flags>2048</Flags>
         <Name>Belknap CLS</Name>
         <NCTR>CG</NCTR>
@@ -21874,7 +21882,7 @@
     </VCD>
     <VCD Num="297">
         <CtIdx>1311</CtIdx>
-        <HitPoints>250</HitPoints>
+        <HitPoints>300</HitPoints>
         <Flags>2048</Flags>
         <Name>California CLS</Name>
         <NCTR>CGN</NCTR>
@@ -21956,7 +21964,7 @@
     </VCD>
     <VCD Num="298">
         <CtIdx>1384</CtIdx>
-        <HitPoints>250</HitPoints>
+        <HitPoints>300</HitPoints>
         <Flags>2048</Flags>
         <Name>Leahy CLS</Name>
         <NCTR>CG</NCTR>
@@ -22282,7 +22290,7 @@
     </VCD>
     <VCD Num="302">
         <CtIdx>2152</CtIdx>
-        <HitPoints>250</HitPoints>
+        <HitPoints>300</HitPoints>
         <Flags>2048</Flags>
         <Name>Virgina CLS</Name>
         <NCTR>CGN</NCTR>
@@ -22298,7 +22306,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>104</RadarIdx>
         <NumberOfCrew>254</NumberOfCrew>
-        <RackFlags>192</RackFlags>
+        <RackFlags>195</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -22552,7 +22560,7 @@
         <CtIdx>2161</CtIdx>
         <HitPoints>100</HitPoints>
         <Flags>1214464</Flags>
-        <Name>Skyguard</Name>
+        <Name>Skyguard SAM</Name>
         <NCTR> </NCTR>
         <RadarCs>1.000000</RadarCs>
         <MaxWeight>0</MaxWeight>
@@ -22595,13 +22603,13 @@
         <Rng_Naval>0</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>20.0</Det_NoMove>
-        <Det_Foot>1.0</Det_Foot>
+        <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>3.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>3.0</Det_LowAir>
-        <Det_Air>5.0</Det_Air>
-        <Det_Naval>4.0</Det_Naval>
-        <Det_Rail>3.0</Det_Rail>
+        <Det_LowAir>5.0</Det_LowAir>
+        <Det_Air>9.0</Det_Air>
+        <Det_Naval>7.0</Det_Naval>
+        <Det_Rail>5.0</Det_Rail>
         <WpnOrHpIdx_0>218</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>218</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>218</WpnOrHpIdx_2>
@@ -22672,8 +22680,8 @@
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
         <Det_Tracked>4.0</Det_Tracked>
-        <Det_LowAir>22.0</Det_LowAir>
-        <Det_Air>28.0</Det_Air>
+        <Det_LowAir>25.0</Det_LowAir>
+        <Det_Air>30.0</Det_Air>
         <Det_Naval>7.0</Det_Naval>
         <Det_Rail>5.0</Det_Rail>
         <Dam_None>0</Dam_None>
@@ -22690,7 +22698,7 @@
     </VCD>
     <VCD Num="307">
         <CtIdx>2163</CtIdx>
-        <HitPoints>250</HitPoints>
+        <HitPoints>300</HitPoints>
         <Flags>2048</Flags>
         <Name>Farragut CLS</Name>
         <NCTR>DDG</NCTR>
@@ -22764,7 +22772,7 @@
     </VCD>
     <VCD Num="308">
         <CtIdx>2164</CtIdx>
-        <HitPoints>250</HitPoints>
+        <HitPoints>300</HitPoints>
         <Flags>2048</Flags>
         <Name>Kidd CLS</Name>
         <NCTR>DDG</NCTR>
@@ -23240,11 +23248,11 @@
         <WpnOrHpIdx_1>494</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>234</WpnOrHpIdx_2>
         <WpnOrHpIdx_3>435</WpnOrHpIdx_3>
-        <WpnOrHpIdx_4>432</WpnOrHpIdx_4>
+        <WpnOrHpIdx_4>435</WpnOrHpIdx_4>
         <WpnOrHpIdx_5>686</WpnOrHpIdx_5>
         <WpnOrHpIdx_6>234</WpnOrHpIdx_6>
         <WpnOrHpIdx_7>435</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>432</WpnOrHpIdx_8>
+        <WpnOrHpIdx_8>435</WpnOrHpIdx_8>
         <WpnOrHpIdx_9>219</WpnOrHpIdx_9>
         <WpnCount_0>60</WpnCount_0>
         <WpnCount_1>200</WpnCount_1>
@@ -23594,16 +23602,16 @@
     </VCD>
     <VCD Num="318">
         <CtIdx>2189</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>42</HitPoints>
         <Flags>2048</Flags>
         <Name>UH-1D</Name>
         <NCTR>UH1</NCTR>
-        <RadarCs>0.778158</RadarCs>
+        <RadarCs>0.678158</RadarCs>
         <MaxWeight>10000</MaxWeight>
         <EmptyWeight>6000</EmptyWeight>
         <FuelWeight>1200</FuelWeight>
         <FuelRate>4</FuelRate>
-        <EngineSound>235</EngineSound>
+        <EngineSound>234</EngineSound>
         <MaxAlt>3</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
@@ -24728,7 +24736,7 @@
         <WpnOrHpIdx_3>144</WpnOrHpIdx_3>
         <WpnOrHpIdx_4>144</WpnOrHpIdx_4>
         <WpnOrHpIdx_5>206</WpnOrHpIdx_5>
-        <WpnOrHpIdx_6>290</WpnOrHpIdx_6>
+        <WpnOrHpIdx_6>37</WpnOrHpIdx_6>
         <WpnOrHpIdx_7>206</WpnOrHpIdx_7>
         <WpnOrHpIdx_8>144</WpnOrHpIdx_8>
         <WpnOrHpIdx_9>144</WpnOrHpIdx_9>
@@ -25632,7 +25640,7 @@
         <EngineSound>34</EngineSound>
         <MaxAlt>350</MaxAlt>
         <MinAlt>10</MinAlt>
-        <CruiseAlt>230</CruiseAlt>
+        <CruiseAlt>180</CruiseAlt>
         <MaxSpeed>1000</MaxSpeed>
         <RadarIdx>74</RadarIdx>
         <NumberOfCrew>1</NumberOfCrew>
@@ -25716,7 +25724,7 @@
         <EngineSound>34</EngineSound>
         <MaxAlt>300</MaxAlt>
         <MinAlt>10</MinAlt>
-        <CruiseAlt>230</CruiseAlt>
+        <CruiseAlt>190</CruiseAlt>
         <MaxSpeed>1000</MaxSpeed>
         <RadarIdx>74</RadarIdx>
         <NumberOfCrew>1</NumberOfCrew>
@@ -26465,7 +26473,7 @@
     <VCD Num="352">
         <CtIdx>2422</CtIdx>
         <HitPoints>64</HitPoints>
-        <Flags>1074595840</Flags>
+        <Flags>1611466752</Flags>
         <Name>EF-18M</Name>
         <NCTR>F18</NCTR>
         <RadarCs>1.231571</RadarCs>
@@ -26813,7 +26821,7 @@
         <Name>J-11</Name>
         <NCTR>SU27</NCTR>
         <RadarCs>1.330325</RadarCs>
-        <MaxWeight>66138</MaxWeight>
+        <MaxWeight>76138</MaxWeight>
         <EmptyWeight>36112</EmptyWeight>
         <FuelWeight>20718</FuelWeight>
         <FuelRate>93</FuelRate>
@@ -27651,7 +27659,7 @@
         <Name>J-15</Name>
         <NCTR>SU27</NCTR>
         <RadarCs>1.345919</RadarCs>
-        <MaxWeight>72900</MaxWeight>
+        <MaxWeight>83900</MaxWeight>
         <EmptyWeight>40600</EmptyWeight>
         <FuelWeight>20718</FuelWeight>
         <FuelRate>174</FuelRate>
@@ -27758,8 +27766,8 @@
         <CallsignSlots>58</CallsignSlots>
         <Hit_NoMove>35</Hit_NoMove>
         <Hit_Foot>30</Hit_Foot>
-        <Hit_Wheeled>25</Hit_Wheeled>
-        <Hit_Tracked>20</Hit_Tracked>
+        <Hit_Wheeled>35</Hit_Wheeled>
+        <Hit_Tracked>35</Hit_Tracked>
         <Hit_LowAir>5</Hit_LowAir>
         <Hit_Air>0</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
@@ -27772,14 +27780,14 @@
         <Str_Air>0</Str_Air>
         <Str_Naval>0</Str_Naval>
         <Str_Rail>26</Str_Rail>
-        <Rng_NoMove>2</Rng_NoMove>
-        <Rng_Foot>2</Rng_Foot>
-        <Rng_Wheeled>2</Rng_Wheeled>
-        <Rng_Tracked>2</Rng_Tracked>
+        <Rng_NoMove>4</Rng_NoMove>
+        <Rng_Foot>4</Rng_Foot>
+        <Rng_Wheeled>4</Rng_Wheeled>
+        <Rng_Tracked>4</Rng_Tracked>
         <Rng_LowAir>2</Rng_LowAir>
         <Rng_Air>0</Rng_Air>
         <Rng_Naval>0</Rng_Naval>
-        <Rng_Rail>2</Rng_Rail>
+        <Rng_Rail>4</Rng_Rail>
         <Det_NoMove>30.0</Det_NoMove>
         <Det_Foot>2.0</Det_Foot>
         <Det_Wheeled>5.0</Det_Wheeled>
@@ -27789,11 +27797,11 @@
         <Det_Naval>6.0</Det_Naval>
         <Det_Rail>5.0</Det_Rail>
         <WpnOrHpIdx_0>503</WpnOrHpIdx_0>
-        <WpnOrHpIdx_1>530</WpnOrHpIdx_1>
+        <WpnOrHpIdx_1>220</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>530</WpnOrHpIdx_2>
         <WpnOrHpIdx_3>471</WpnOrHpIdx_3>
         <WpnCount_0>250</WpnCount_0>
-        <WpnCount_1>250</WpnCount_1>
+        <WpnCount_1>8</WpnCount_1>
         <WpnCount_2>250</WpnCount_2>
         <WpnCount_3>30</WpnCount_3>
         <Dam_None>0</Dam_None>
@@ -28628,9 +28636,9 @@
         <FuelWeight>4583</FuelWeight>
         <FuelRate>55</FuelRate>
         <EngineSound>245</EngineSound>
-        <MaxAlt>350</MaxAlt>
+        <MaxAlt>450</MaxAlt>
         <MinAlt>10</MinAlt>
-        <CruiseAlt>190</CruiseAlt>
+        <CruiseAlt>180</CruiseAlt>
         <MaxSpeed>1000</MaxSpeed>
         <RadarIdx>5</RadarIdx>
         <NumberOfCrew>1</NumberOfCrew>
@@ -28706,7 +28714,7 @@
         <FuelWeight>4680</FuelWeight>
         <FuelRate>55</FuelRate>
         <EngineSound>245</EngineSound>
-        <MaxAlt>450</MaxAlt>
+        <MaxAlt>500</MaxAlt>
         <MinAlt>10</MinAlt>
         <CruiseAlt>190</CruiseAlt>
         <MaxSpeed>1000</MaxSpeed>
@@ -29291,7 +29299,7 @@
         <Name>OV-10A</Name>
         <NCTR>OV10</NCTR>
         <RadarCs>0.840896</RadarCs>
-        <MaxWeight>14444</MaxWeight>
+        <MaxWeight>14844</MaxWeight>
         <EmptyWeight>7190</EmptyWeight>
         <FuelWeight>1686</FuelWeight>
         <FuelRate>4</FuelRate>
@@ -30336,7 +30344,7 @@
         <EngineSound>246</EngineSound>
         <MaxAlt>550</MaxAlt>
         <MinAlt>50</MinAlt>
-        <CruiseAlt>240</CruiseAlt>
+        <CruiseAlt>280</CruiseAlt>
         <MaxSpeed>1200</MaxSpeed>
         <RadarIdx>85</RadarIdx>
         <NumberOfCrew>2</NumberOfCrew>
@@ -31850,16 +31858,16 @@
     </VCD>
     <VCD Num="417">
         <CtIdx>3644</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>42</HitPoints>
         <Flags>2048</Flags>
         <Name>UH-1H IRAQ</Name>
         <NCTR>UH1</NCTR>
-        <RadarCs>0.778158</RadarCs>
+        <RadarCs>0.678158</RadarCs>
         <MaxWeight>10000</MaxWeight>
         <EmptyWeight>6000</EmptyWeight>
         <FuelWeight>1200</FuelWeight>
         <FuelRate>4</FuelRate>
-        <EngineSound>235</EngineSound>
+        <EngineSound>234</EngineSound>
         <MaxAlt>3</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
@@ -31918,16 +31926,16 @@
     </VCD>
     <VCD Num="418">
         <CtIdx>3647</CtIdx>
-        <HitPoints>23</HitPoints>
+        <HitPoints>42</HitPoints>
         <Flags>2048</Flags>
         <Name>UH-1H ROCA</Name>
         <NCTR>UH1</NCTR>
-        <RadarCs>0.778158</RadarCs>
+        <RadarCs>0.678158</RadarCs>
         <MaxWeight>10000</MaxWeight>
         <EmptyWeight>6000</EmptyWeight>
         <FuelWeight>1200</FuelWeight>
         <FuelRate>4</FuelRate>
-        <EngineSound>235</EngineSound>
+        <EngineSound>234</EngineSound>
         <MaxAlt>3</MaxAlt>
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
@@ -32121,12 +32129,12 @@
         <Dam_HighExplosive>160</Dam_HighExplosive>
         <Dam_Heave>0</Dam_Heave>
         <Dam_Incendairy>160</Dam_Incendairy>
-        <Dam_Proximity>64</Dam_Proximity>
-        <Dam_Kinetic>96</Dam_Kinetic>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>150</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>128</Dam_Nuclear>
-        <Dam_Other>128</Dam_Other>
+        <Dam_Nuclear>150</Dam_Nuclear>
+        <Dam_Other>150</Dam_Other>
     </VCD>
     <VCD Num="421">
         <CtIdx>3767</CtIdx>
@@ -32924,7 +32932,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>111</RadarIdx>
         <NumberOfCrew>150</NumberOfCrew>
-        <RackFlags>990</RackFlags>
+        <RackFlags>718</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>

@@ -453,7 +453,7 @@
         <JammingPenalty>0.400</JammingPenalty>
         <NotchPenalty>0.380</NotchPenalty>
         <NotchSpeed>110.0</NotchSpeed>
-        <ChaffChance>24.0</ChaffChance>
+        <ChaffChance>20.0</ChaffChance>
         <Flags>0</Flags>
     </RCD>
     <RCD Num="24">
@@ -677,7 +677,7 @@
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>360.0</SweepRate>
         <CoastTime>3.0</CoastTime>
-        <LookDownPenalty>0.100</LookDownPenalty>
+        <LookDownPenalty>0.350</LookDownPenalty>
         <JammingPenalty>0.350</JammingPenalty>
         <NotchPenalty>0.900</NotchPenalty>
         <NotchSpeed>23.7</NotchSpeed>
@@ -1019,7 +1019,7 @@
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>60.0</SweepRate>
         <CoastTime>3.0</CoastTime>
-        <LookDownPenalty>0.350</LookDownPenalty>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.600</JammingPenalty>
         <NotchPenalty>0.180</NotchPenalty>
         <NotchSpeed>40.0</NotchSpeed>
@@ -1217,7 +1217,7 @@
         <Flags>0</Flags>
     </RCD>
     <RCD Num="64">
-        <Name>N001 Myech</Name>
+        <Name>N001 Mech</Name>
         <RwrSound>102</RwrSound>
         <RwrSymbol>45</RwrSymbol>
         <RadarDatIdx>64</RadarDatIdx>
@@ -1295,7 +1295,7 @@
     <RCD Num="68">
         <Name>Cyrano II</Name>
         <RwrSound>162</RwrSound>
-        <RwrSymbol>49</RwrSymbol>
+        <RwrSymbol>77</RwrSymbol>
         <RadarDatIdx>68</RadarDatIdx>
         <HighAltLethality>0.50</HighAltLethality>
         <LowAltLethality>0.50</LowAltLethality>
@@ -1935,7 +1935,7 @@
         <JammingPenalty>0.850</JammingPenalty>
         <NotchPenalty>0.500</NotchPenalty>
         <NotchSpeed>0.0</NotchSpeed>
-        <ChaffChance>60.0</ChaffChance>
+        <ChaffChance>50.0</ChaffChance>
         <Flags>0</Flags>
     </RCD>
     <RCD Num="102">
@@ -1968,8 +1968,8 @@
         <BeamWidth>6.0</BeamWidth>
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>75.0</SweepRate>
-        <CoastTime>1.0</CoastTime>
-        <LookDownPenalty>0.350</LookDownPenalty>
+        <CoastTime>3.0</CoastTime>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.780</JammingPenalty>
         <NotchPenalty>0.200</NotchPenalty>
         <NotchSpeed>67.5</NotchSpeed>
@@ -1987,8 +1987,8 @@
         <BeamWidth>6.0</BeamWidth>
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>72.0</SweepRate>
-        <CoastTime>1.0</CoastTime>
-        <LookDownPenalty>0.400</LookDownPenalty>
+        <CoastTime>3.0</CoastTime>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.780</JammingPenalty>
         <NotchPenalty>0.200</NotchPenalty>
         <NotchSpeed>67.5</NotchSpeed>
@@ -2006,8 +2006,8 @@
         <BeamWidth>6.0</BeamWidth>
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>75.0</SweepRate>
-        <CoastTime>1.0</CoastTime>
-        <LookDownPenalty>0.150</LookDownPenalty>
+        <CoastTime>3.0</CoastTime>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.780</JammingPenalty>
         <NotchPenalty>0.200</NotchPenalty>
         <NotchSpeed>67.5</NotchSpeed>
@@ -2026,7 +2026,7 @@
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>75.0</SweepRate>
         <CoastTime>1.0</CoastTime>
-        <LookDownPenalty>0.100</LookDownPenalty>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.780</JammingPenalty>
         <NotchPenalty>0.200</NotchPenalty>
         <NotchSpeed>67.5</NotchSpeed>
@@ -2101,7 +2101,7 @@
         <BeamWidth>6.0</BeamWidth>
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>75.0</SweepRate>
-        <CoastTime>1.0</CoastTime>
+        <CoastTime>3.0</CoastTime>
         <LookDownPenalty>0.500</LookDownPenalty>
         <JammingPenalty>0.780</JammingPenalty>
         <NotchPenalty>0.200</NotchPenalty>
@@ -2120,8 +2120,8 @@
         <BeamWidth>6.0</BeamWidth>
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>75.0</SweepRate>
-        <CoastTime>1.0</CoastTime>
-        <LookDownPenalty>0.200</LookDownPenalty>
+        <CoastTime>3.0</CoastTime>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.780</JammingPenalty>
         <NotchPenalty>0.200</NotchPenalty>
         <NotchSpeed>67.5</NotchSpeed>
@@ -2144,7 +2144,7 @@
         <JammingPenalty>1.000</JammingPenalty>
         <NotchPenalty>0.500</NotchPenalty>
         <NotchSpeed>0.0</NotchSpeed>
-        <ChaffChance>50.0</ChaffChance>
+        <ChaffChance>45.0</ChaffChance>
         <Flags>0</Flags>
     </RCD>
     <RCD Num="113">
@@ -2169,7 +2169,7 @@
     <RCD Num="114">
         <Name>Cyrano IVM</Name>
         <RwrSound>162</RwrSound>
-        <RwrSymbol>49</RwrSymbol>
+        <RwrSymbol>77</RwrSymbol>
         <RadarDatIdx>114</RadarDatIdx>
         <HighAltLethality>0.50</HighAltLethality>
         <LowAltLethality>0.50</LowAltLethality>
@@ -2182,7 +2182,7 @@
         <JammingPenalty>0.480</JammingPenalty>
         <NotchPenalty>0.500</NotchPenalty>
         <NotchSpeed>90.5</NotchSpeed>
-        <ChaffChance>24.0</ChaffChance>
+        <ChaffChance>20.0</ChaffChance>
         <Flags>0</Flags>
     </RCD>
     <RCD Num="115">
@@ -2235,7 +2235,7 @@
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>60.0</SweepRate>
         <CoastTime>3.0</CoastTime>
-        <LookDownPenalty>0.100</LookDownPenalty>
+        <LookDownPenalty>0.450</LookDownPenalty>
         <JammingPenalty>0.600</JammingPenalty>
         <NotchPenalty>0.180</NotchPenalty>
         <NotchSpeed>40.0</NotchSpeed>
@@ -2296,7 +2296,7 @@
         <JammingPenalty>0.400</JammingPenalty>
         <NotchPenalty>0.380</NotchPenalty>
         <NotchSpeed>110.0</NotchSpeed>
-        <ChaffChance>24.0</ChaffChance>
+        <ChaffChance>22.0</ChaffChance>
         <Flags>0</Flags>
     </RCD>
     <RCD Num="121">
