@@ -1250,9 +1250,9 @@
     </WCD>
     <WCD Num="39">
         <CtIdx>3062</CtIdx>
-        <Strength>180</Strength>
+        <Strength>210</Strength>
         <DamageType>1</DamageType>
-        <Range>3.0</Range>
+        <Range>4.0</Range>
         <Flags>0</Flags>
         <Name>AT-2</Name>
         <Hit_NoMove>30</Hit_NoMove>
@@ -1265,7 +1265,7 @@
         <Hit_Rail>0</Hit_Rail>
         <FireRate>1</FireRate>
         <Rariety>99</Rariety>
-        <Guidance>16</Guidance>
+        <Guidance>2</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>25</Weight>
@@ -4261,7 +4261,7 @@
         <Strength>415</Strength>
         <DamageType>7</DamageType>
         <Range>10.0</Range>
-        <Flags>3336</Flags>
+        <Flags>1288</Flags>
         <Name>AGM-123 Skipper</Name>
         <Hit_NoMove>25</Hit_NoMove>
         <Hit_Foot>15</Hit_Foot>
@@ -4679,8 +4679,8 @@
         <Range>9.0</Range>
         <Flags>0</Flags>
         <Name>AGM-65A Maverick</Name>
-        <Hit_NoMove>10</Hit_NoMove>
-        <Hit_Foot>5</Hit_Foot>
+        <Hit_NoMove>5</Hit_NoMove>
+        <Hit_Foot>10</Hit_Foot>
         <Hit_Wheeled>35</Hit_Wheeled>
         <Hit_Tracked>35</Hit_Tracked>
         <Hit_LowAir>0</Hit_LowAir>
@@ -7042,33 +7042,33 @@
     </WCD>
     <WCD Num="220">
         <CtIdx>603</CtIdx>
-        <Strength>255</Strength>
+        <Strength>250</Strength>
         <DamageType>1</DamageType>
         <Range>4.0</Range>
         <Flags>0</Flags>
-        <Name>AT-10</Name>
+        <Name>HOT ATGM</Name>
         <Hit_NoMove>20</Hit_NoMove>
         <Hit_Foot>15</Hit_Foot>
-        <Hit_Wheeled>30</Hit_Wheeled>
-        <Hit_Tracked>30</Hit_Tracked>
+        <Hit_Wheeled>35</Hit_Wheeled>
+        <Hit_Tracked>35</Hit_Tracked>
         <Hit_LowAir>0</Hit_LowAir>
         <Hit_Air>0</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
-        <Hit_Rail>30</Hit_Rail>
+        <Hit_Rail>10</Hit_Rail>
         <FireRate>1</FireRate>
         <Rariety>99</Rariety>
-        <Guidance>16</Guidance>
+        <Guidance>2</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>30</Weight>
         <Drag>3</Drag>
-        <BlastRadius>16</BlastRadius>
+        <BlastRadius>18</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>65</SimWeaponDataIdx>
         <MaxAlt>0</MaxAlt>
         <MinAlt>0</MinAlt>
-        <BulletTTL>3</BulletTTL>
-        <BulletVelocity>5</BulletVelocity>
+        <BulletTTL>2</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
     </WCD>
@@ -7106,7 +7106,7 @@
     </WCD>
     <WCD Num="222">
         <CtIdx>742</CtIdx>
-        <Strength>210</Strength>
+        <Strength>220</Strength>
         <DamageType>1</DamageType>
         <Range>3.0</Range>
         <Flags>0</Flags>
@@ -7138,7 +7138,7 @@
     </WCD>
     <WCD Num="223">
         <CtIdx>919</CtIdx>
-        <Strength>250</Strength>
+        <Strength>240</Strength>
         <DamageType>1</DamageType>
         <Range>4.0</Range>
         <Flags>0</Flags>
@@ -7158,7 +7158,7 @@
         <Rackgroup>0</Rackgroup>
         <Weight>20</Weight>
         <Drag>3</Drag>
-        <BlastRadius>15</BlastRadius>
+        <BlastRadius>20</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>65</SimWeaponDataIdx>
         <MaxAlt>0</MaxAlt>
@@ -7185,7 +7185,7 @@
         <Hit_Rail>0</Hit_Rail>
         <FireRate>1</FireRate>
         <Rariety>70</Rariety>
-        <Guidance>16</Guidance>
+        <Guidance>2</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>50</Weight>
@@ -8601,7 +8601,7 @@
         <BlastRadius>64</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>54</SimWeaponDataIdx>
-        <MaxAlt>17</MaxAlt>
+        <MaxAlt>18</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>3</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
@@ -12761,7 +12761,7 @@
         <BlastRadius>77</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>91</SimWeaponDataIdx>
-        <MaxAlt>17</MaxAlt>
+        <MaxAlt>18</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>3</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
@@ -12877,7 +12877,7 @@
         <Hit_Tracked>5</Hit_Tracked>
         <Hit_LowAir>0</Hit_LowAir>
         <Hit_Air>0</Hit_Air>
-        <Hit_Naval>10</Hit_Naval>
+        <Hit_Naval>5</Hit_Naval>
         <Hit_Rail>10</Hit_Rail>
         <FireRate>1</FireRate>
         <Rariety>99</Rariety>
@@ -13060,7 +13060,7 @@
         <CtIdx>2353</CtIdx>
         <Strength>100</Strength>
         <DamageType>5</DamageType>
-        <Range>22.0</Range>
+        <Range>24.0</Range>
         <Flags>0</Flags>
         <Name>SA-11 Missile</Name>
         <Hit_NoMove>0</Hit_NoMove>
@@ -13177,7 +13177,7 @@
         <BlastRadius>53</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>51</SimWeaponDataIdx>
-        <MaxAlt>13</MaxAlt>
+        <MaxAlt>14</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>3</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
@@ -13291,8 +13291,8 @@
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
         <Hit_Tracked>0</Hit_Tracked>
-        <Hit_LowAir>15</Hit_LowAir>
-        <Hit_Air>15</Hit_Air>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>20</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
         <FireRate>1</FireRate>
@@ -13337,7 +13337,7 @@
         <BlastRadius>75</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>71</SimWeaponDataIdx>
-        <MaxAlt>16</MaxAlt>
+        <MaxAlt>17</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>2</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
@@ -13593,7 +13593,7 @@
         <BlastRadius>46</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>50</SimWeaponDataIdx>
-        <MaxAlt>12</MaxAlt>
+        <MaxAlt>13</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>3</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
@@ -15074,7 +15074,7 @@
     </WCD>
     <WCD Num="471">
         <CtIdx>3075</CtIdx>
-        <Strength>17</Strength>
+        <Strength>20</Strength>
         <DamageType>6</DamageType>
         <Range>2.0</Range>
         <Flags>32800</Flags>
@@ -15094,19 +15094,19 @@
         <Rackgroup>0</Rackgroup>
         <Weight>0</Weight>
         <Drag>0</Drag>
-        <BlastRadius>3</BlastRadius>
+        <BlastRadius>5</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
         <MaxAlt>2</MaxAlt>
         <MinAlt>0</MinAlt>
-        <BulletTTL>2</BulletTTL>
-        <BulletVelocity>10</BulletVelocity>
+        <BulletTTL>1</BulletTTL>
+        <BulletVelocity>11</BulletVelocity>
         <BulletDispersion>200</BulletDispersion>
-        <BulletRoundsPerSec>3</BulletRoundsPerSec>
+        <BulletRoundsPerSec>5</BulletRoundsPerSec>
     </WCD>
     <WCD Num="472">
         <CtIdx>505</CtIdx>
-        <Strength>17</Strength>
+        <Strength>35</Strength>
         <DamageType>6</DamageType>
         <Range>2.0</Range>
         <Flags>32800</Flags>
@@ -15126,7 +15126,7 @@
         <Rackgroup>0</Rackgroup>
         <Weight>0</Weight>
         <Drag>0</Drag>
-        <BlastRadius>3</BlastRadius>
+        <BlastRadius>12</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
         <MaxAlt>2</MaxAlt>
@@ -15682,7 +15682,7 @@
     </WCD>
     <WCD Num="490">
         <CtIdx>798</CtIdx>
-        <Strength>15</Strength>
+        <Strength>25</Strength>
         <DamageType>6</DamageType>
         <Range>1.0</Range>
         <Flags>32800</Flags>
@@ -15702,7 +15702,7 @@
         <Rackgroup>0</Rackgroup>
         <Weight>0</Weight>
         <Drag>0</Drag>
-        <BlastRadius>8</BlastRadius>
+        <BlastRadius>10</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
         <MaxAlt>100</MaxAlt>
@@ -16236,7 +16236,7 @@
         <Hit_Wheeled>0</Hit_Wheeled>
         <Hit_Tracked>0</Hit_Tracked>
         <Hit_LowAir>20</Hit_LowAir>
-        <Hit_Air>0</Hit_Air>
+        <Hit_Air>1</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
         <FireRate>6</FireRate>
@@ -16249,7 +16249,7 @@
         <BlastRadius>15</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
-        <MaxAlt>6</MaxAlt>
+        <MaxAlt>7</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>3</BulletTTL>
         <BulletVelocity>20</BulletVelocity>
@@ -16290,7 +16290,7 @@
     </WCD>
     <WCD Num="509">
         <CtIdx>494</CtIdx>
-        <Strength>26</Strength>
+        <Strength>40</Strength>
         <DamageType>6</DamageType>
         <Range>3.0</Range>
         <Flags>32800</Flags>
@@ -16310,7 +16310,7 @@
         <Rackgroup>0</Rackgroup>
         <Weight>0</Weight>
         <Drag>0</Drag>
-        <BlastRadius>10</BlastRadius>
+        <BlastRadius>15</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
         <MaxAlt>0</MaxAlt>
@@ -16322,7 +16322,7 @@
     </WCD>
     <WCD Num="510">
         <CtIdx>672</CtIdx>
-        <Strength>30</Strength>
+        <Strength>35</Strength>
         <DamageType>6</DamageType>
         <Range>1.0</Range>
         <Flags>32800</Flags>
@@ -16418,7 +16418,7 @@
     </WCD>
     <WCD Num="513">
         <CtIdx>217</CtIdx>
-        <Strength>26</Strength>
+        <Strength>50</Strength>
         <DamageType>2</DamageType>
         <Range>2.0</Range>
         <Flags>32800</Flags>
@@ -16450,7 +16450,7 @@
     </WCD>
     <WCD Num="514">
         <CtIdx>2754</CtIdx>
-        <Strength>25</Strength>
+        <Strength>30</Strength>
         <DamageType>6</DamageType>
         <Range>1.0</Range>
         <Flags>32800</Flags>
@@ -16470,7 +16470,7 @@
         <Rackgroup>0</Rackgroup>
         <Weight>0</Weight>
         <Drag>0</Drag>
-        <BlastRadius>11</BlastRadius>
+        <BlastRadius>12</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
         <MaxAlt>100</MaxAlt>
@@ -16516,7 +16516,7 @@
         <CtIdx>2710</CtIdx>
         <Strength>12</Strength>
         <DamageType>6</DamageType>
-        <Range>3.0</Range>
+        <Range>5.0</Range>
         <Flags>32800</Flags>
         <Name>35mm AAA</Name>
         <Hit_NoMove>0</Hit_NoMove>
@@ -16537,44 +16537,44 @@
         <BlastRadius>15</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
-        <MaxAlt>7</MaxAlt>
+        <MaxAlt>12</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>4</BulletTTL>
-        <BulletVelocity>11</BulletVelocity>
+        <BulletVelocity>16</BulletVelocity>
         <BulletDispersion>76</BulletDispersion>
         <BulletRoundsPerSec>9</BulletRoundsPerSec>
     </WCD>
     <WCD Num="517">
         <CtIdx>591</CtIdx>
-        <Strength>16</Strength>
-        <DamageType>2</DamageType>
-        <Range>4.0</Range>
-        <Flags>0</Flags>
+        <Strength>15</Strength>
+        <DamageType>6</DamageType>
+        <Range>7.0</Range>
+        <Flags>32</Flags>
         <Name>37mm AAA</Name>
         <Hit_NoMove>0</Hit_NoMove>
-        <Hit_Foot>2</Hit_Foot>
-        <Hit_Wheeled>1</Hit_Wheeled>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
         <Hit_Tracked>0</Hit_Tracked>
-        <Hit_LowAir>10</Hit_LowAir>
+        <Hit_LowAir>12</Hit_LowAir>
         <Hit_Air>2</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
-        <FireRate>2</FireRate>
+        <FireRate>6</FireRate>
         <Rariety>99</Rariety>
         <Guidance>0</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>0</Weight>
         <Drag>0</Drag>
-        <BlastRadius>16</BlastRadius>
+        <BlastRadius>15</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
-        <MaxAlt>8</MaxAlt>
+        <MaxAlt>20</MaxAlt>
         <MinAlt>0</MinAlt>
-        <BulletTTL>4</BulletTTL>
-        <BulletVelocity>11</BulletVelocity>
+        <BulletTTL>6</BulletTTL>
+        <BulletVelocity>18</BulletVelocity>
         <BulletDispersion>76</BulletDispersion>
-        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <BulletRoundsPerSec>2</BulletRoundsPerSec>
     </WCD>
     <WCD Num="518">
         <CtIdx>805</CtIdx>
@@ -16619,7 +16619,7 @@
         <Hit_Foot>15</Hit_Foot>
         <Hit_Wheeled>10</Hit_Wheeled>
         <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_LowAir>5</Hit_LowAir>
         <Hit_Air>0</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>10</Hit_Rail>
@@ -16633,7 +16633,7 @@
         <BlastRadius>25</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
-        <MaxAlt>0</MaxAlt>
+        <MaxAlt>9</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>4</BulletTTL>
         <BulletVelocity>11</BulletVelocity>
@@ -16708,13 +16708,13 @@
         <CtIdx>3120</CtIdx>
         <Strength>18</Strength>
         <DamageType>2</DamageType>
-        <Range>6.0</Range>
+        <Range>7.0</Range>
         <Flags>0</Flags>
         <Name>57mm AAA (RG)</Name>
         <Hit_NoMove>5</Hit_NoMove>
-        <Hit_Foot>10</Hit_Foot>
-        <Hit_Wheeled>5</Hit_Wheeled>
-        <Hit_Tracked>1</Hit_Tracked>
+        <Hit_Foot>5</Hit_Foot>
+        <Hit_Wheeled>1</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
         <Hit_LowAir>15</Hit_LowAir>
         <Hit_Air>2</Hit_Air>
         <Hit_Naval>0</Hit_Naval>
@@ -16729,7 +16729,7 @@
         <BlastRadius>15</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>25</SimWeaponDataIdx>
-        <MaxAlt>18</MaxAlt>
+        <MaxAlt>19</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>5</BulletTTL>
         <BulletVelocity>12</BulletVelocity>
@@ -17453,7 +17453,7 @@
         <Hit_Tracked>5</Hit_Tracked>
         <Hit_LowAir>0</Hit_LowAir>
         <Hit_Air>0</Hit_Air>
-        <Hit_Naval>10</Hit_Naval>
+        <Hit_Naval>5</Hit_Naval>
         <Hit_Rail>10</Hit_Rail>
         <FireRate>1</FireRate>
         <Rariety>99</Rariety>
@@ -21977,7 +21977,7 @@
         <BlastRadius>77</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>91</SimWeaponDataIdx>
-        <MaxAlt>15</MaxAlt>
+        <MaxAlt>25</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>3</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
