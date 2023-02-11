@@ -1,0 +1,234 @@
+// Kuwait 128 Theater - US-Iran war scenario
+//
+//
+// Base event file
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 14
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// This marks the Coalition as initially on the offensive (9) or defensive (10)
+#SET_EVENT 10
+// 
+// This sets the initial tempo
+#SET_TEMPO 150
+#ENDINIT
+//
+//
+// Starts with a couple news reports about Coalition invading Iran
+// #PLAY_MOVIE does this intentionally
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// Now come the individual triggers
+// 
+// Event #1
+// Abad town being attacked by Coalition forces (Abad bridge 1211), Torrreh-Ye Bakhkhakh Depot(1453), Jazireh-Ye Abadan(1513) Khorramshahr depot(1623)
+// (Pack Ahvaz 1205) (Pack Dow Gonbadan 1459)
+#IF_NOT_EVENT_PLAYED 1
+#IF_CONTROLLED 2 OR 1211 1453 1513 1623
+#PLAY_MOVIE 100
+#SET_PAK_PRIORITY 2 1205 100
+#SET_PAK_PRIORITY 3 1205 100
+#SET_PAK_PRIORITY 2 1459 95
+#SET_PAK_PRIORITY 3 1459 95
+#CHANGE_PRIORITIES 2 2
+#CHANGE_PRIORITIES 3 1
+#SET_TEMPO 255
+#DO_EVENT 1
+#DO_MONOLOG Ahvaz being attacked by Coalition forces
+#ENDIF
+#ENDIF
+//
+// Event #2
+// Ahvaz City (1205) falls/regained (and near Shahrak-e Naft 1375)
+// 
+#IF_EVENT_PLAYED 2
+#IF_CONTROLLED 3 AND 1205 1375
+#SHIFT_INITIATIVE 3 2 50
+#RESET_EVENT 2
+#DO_MONOLOG Ahvaz City regained
+#ENDIF
+#ELSE
+#IF_CONTROLLED 2 AND 1205 1375
+#PLAY_MOVIE 101
+#SET_PAK_PRIORITY 2 1459 100
+#SET_PAK_PRIORITY 3 1459 100
+#DO_EVENT 2
+#SHIFT_INITIATIVE 2 3 50
+#DO_MONOLOG Ahvaz City falls
+#ENDIF
+#ENDIF
+// 
+// Event #3
+// Kuwait (11) being attacked by Iran forces - FAW city (1451), Basrah bridge(1449), Tannu (5038),Iraqi Bridge (222) 
+// 
+#IF_NOT_EVENT_PLAYED 3
+#IF_CONTROLLED 3 OR 1451 1449 5038 222
+#PLAY_MOVIE 102
+#SET_PAK_PRIORITY 2 11 100
+#SET_PAK_PRIORITY 3 11 100
+#SET_PAK_PRIORITY 2 418 95
+#SET_PAK_PRIORITY 3 418 95
+#CHANGE_PRIORITIES 2 1
+#CHANGE_PRIORITIES 3 2
+#SET_TEMPO 255
+#DO_EVENT 3
+#DO_MONOLOG Kuwait and Saudia being attacked by Iran forces
+#ENDIF
+#ENDIF
+// 
+// Event #4
+// Kuwait ID (11), Al Jahra ID (8) falls/regained 
+// 
+#IF_EVENT_PLAYED 4
+#IF_CONTROLLED 2 AND 11 8
+#SHIFT_INITIATIVE 3 2 50
+#RESET_EVENT 4
+#DO_MONOLOG Kuwait regained
+#ENDIF
+#ELSE
+#IF_CONTROLLED 3 AND 11 8
+#PLAY_MOVIE 103
+#SET_PAK_PRIORITY 2 418 100
+#SET_PAK_PRIORITY 3 418 100
+#DO_EVENT 4
+#SHIFT_INITIATIVE 2 3 50
+#DO_MONOLOG Kuwait falls
+#ENDIF
+#ENDIF
+//
+// Event #5 (Third line objects)
+// Coalition advanced beyond border Iranian Missile Area(5014), Jazireh-Ye Abadan(1513), Torrreh-Ye Bakhkhakh (1477), Khorramshahr(5018), Istgah-e Hoseyniyeh(1350), Istgah-e Ahu (1297), Susangerd(1129), Town (1712), Dehloran(907), Gilan-e Gharb(740) 
+//
+#IF_NOT_EVENT_PLAYED 5
+#IF_NOT_EVENT_PLAYED 7
+#IF_CONTROLLED 2 OR 5014 1513 1477 5018 1350 1297 1129 1712 907 740
+#DO_EVENT 5
+#RESET_EVENT 6
+#SHIFT_INITIATIVE 3 2 50
+#DO_MONOLOG Coalition advanced beyond border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #6 (First line objects)
+// Coalition pushed back to border Abad (642), Fort(5062) Iranian Border Checkpoint(5055), Iranian Border Checkpoint(1618), Depot(1627) Iraqi-Iranian Border(1655), Iranian Border Checkpoint(1659), Iranian Highway (1699), Iranian Border Checkpoint(1671), Iranian Border Checkpoint(1660), Naft-e Shah(660)
+// 
+#IF_EVENT_PLAYED 5
+#IF_EVENT_PLAYED 7
+#PLAY_MOVIE 104
+#DO_EVENT 6
+#RESET_EVENT 5
+#DO_MONOLOG Coalition pushed back to border
+#ELSE
+#IF_CONTROLLED 3 AND 642 5062 5055 1618 1627 1655 1659 1699 1671 1660 660
+#PLAY_MOVIE 104
+#DO_EVENT 6
+#RESET_EVENT 5
+#DO_MONOLOG Coalition pushed back to border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #7 (Third line objects)
+// Iranian forces advanced beyond border Iraqi Settlement(1452), Tannu (371), Basrah(364) Observer post (305), Al Naziriyah Depot(918) Ash Shubah(2459) Rawdat Habbas(2378) Rafha Airbase(388) Ad Duwayd (410) Saudi Highway (3269) Al Jalamid(3196) Saudi Highway (3238) Saudi Highway(3764)
+//
+#IF_NOT_EVENT_PLAYED 7
+#IF_NOT_EVENT_PLAYED 5
+#IF_CONTROLLED 3 OR 1452 371 364 305 918 2459 2378 388 410 3269 3196 3238 3764
+#DO_EVENT 7
+#RESET_EVENT 8
+#SHIFT_INITIATIVE 2 3 50
+#DO_MONOLOG Iranian forces advanced beyond border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #8 (First line objects)
+// Iranian forces pushed back to border Faw int(223), Iraqi Bridge (1454), Iraq Border CheckPoint(5049) DMZ Road Junction (1134) Saudi Border Crossing (1314) Camp refugees in Rafha (3807) Saudi Border Crossing (1116)
+// 
+#IF_EVENT_PLAYED 7
+#IF_EVENT_PLAYED 5
+#PLAY_MOVIE 105
+#DO_EVENT 8
+#RESET_EVENT 7
+#DO_MONOLOG Iranian forces pushed back to border
+#ELSE
+#IF_CONTROLLED 2 AND 223 2533 5049 1134 1314 3807 1116
+#PLAY_MOVIE 105
+#DO_EVENT 8
+#RESET_EVENT 7
+#DO_MONOLOG Iranian forces pushed back to border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #9
+// Iranian forces go on offensive
+// 
+#IF_EVENT_PLAYED 10
+#IF_ON_OFFENSIVE 3
+#PLAY_MOVIE 106
+#DO_EVENT 9
+#RESET_EVENT 10
+#ENDIF
+#ENDIF
+// 
+// Event #10
+// Iranian forces go on defensive
+// 
+#IF_EVENT_PLAYED 9
+#IF_ON_OFFENSIVE 2
+#PLAY_MOVIE 107
+#DO_EVENT 10
+#RESET_EVENT 9
+#ENDIF
+#ENDIF
+// 
+// Event #11
+// Combined forces guys win
+// Basically - Ahvaz City (1205) Bandar-e Mahshahr City (1458), Omidiyeh City (1278), Dow Gonbadan(1459)
+//
+//
+#IF_CONTROLLED 2 AND 1205 1458 1278 1459
+#PLAY_MOVIE 113
+#DO_EVENT 14
+#END_GAME 14
+#ENDIF
+// 
+// Event #12
+// Stalemate
+// 
+#IF_BORDOM_HOURS 240
+#PLAY_MOVIE 114
+#DO_EVENT 15
+#END_GAME 15
+#ENDIF
+// 
+// Event #13
+// Timeout - You have 30 days to win (or lose) the war
+// 
+#IF_CAMPAIGN_DAY G 30
+#PLAY_MOVIE 115
+#DO_EVENT 16
+#END_GAME 16
+#ENDIF
+// 
+// Event #14
+// Iran guys win
+// Basically - Kuwait (11), Hafar Al Batin (418), Ras Al Khafji (420),
+//
+#IF_CONTROLLED 3 AND 11 418 420
+#PLAY_MOVIE 116
+#DO_EVENT 17
+#END_GAME 17
+#ENDIF
+// End
+#ENDSCRIPT

@@ -1,0 +1,232 @@
+// Kuwait 128 Theater - Iraq-Iran war scenario
+//
+//
+// Base event file
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 14
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// This marks the Coalition as initially on the offensive (9) or defensive (10)
+#SET_EVENT 10
+// 
+// This sets the initial tempo
+#SET_TEMPO 150
+#ENDINIT
+//
+//
+// Starts with a couple news reports about Iraq invading Iran, and then Iraq capturing Qofas
+// #PLAY_MOVIE does this intentionally
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// Now come the individual triggers
+// 
+// Event #1
+// Abad town being attacked by Iraq forces (Abad bridge 1211), Iranian Border Checkpoint (5054), Iraqi-Iranian Border(1655)
+// (Pack Ahvaz 1205) (Pack Dow Gonbadan 1459)
+#IF_NOT_EVENT_PLAYED 1
+#IF_CONTROLLED 6 OR 1211 5054 1655
+#PLAY_MOVIE 100
+#SET_PAK_PRIORITY 6 1205 100
+#SET_PAK_PRIORITY 3 1205 100
+#SET_PAK_PRIORITY 6 1459 95
+#SET_PAK_PRIORITY 3 1459 95
+#CHANGE_PRIORITIES 6 2
+#CHANGE_PRIORITIES 3 1
+#SET_TEMPO 255
+#DO_EVENT 1
+#DO_MONOLOG Ahvaz being attacked by Iraq forces
+#ENDIF
+#ENDIF
+//
+// Event #2
+// Ahvaz City (1205), Khorramshahr fort (5061), Susangerd (1129) falls/regained
+// 
+#IF_EVENT_PLAYED 2
+#IF_CONTROLLED 3 AND 1205 5061 1129
+#SHIFT_INITIATIVE 3 6 50
+#RESET_EVENT 2
+#DO_MONOLOG Ahvaz City regained
+#ENDIF
+#ELSE
+#IF_CONTROLLED 6 AND 1205 5018 1129
+#PLAY_MOVIE 101
+#DO_EVENT 2
+#SHIFT_INITIATIVE 6 3 50
+#DO_MONOLOG Ahvaz City falls
+#ENDIF
+#ENDIF
+// 
+// Event #3
+// Basrah (365) Al Amarah (254) being attacked by Iran forces - FAW bidge (224), Basrah bridge(1449), Duwa base(1620) 
+// 
+#IF_NOT_EVENT_PLAYED 3
+#IF_CONTROLLED 3 OR 224 1449 1620
+#PLAY_MOVIE 102
+#SET_PAK_PRIORITY 6 365 100
+#SET_PAK_PRIORITY 3 365 100
+#SET_PAK_PRIORITY 6 254 95
+#SET_PAK_PRIORITY 3 254 95
+#CHANGE_PRIORITIES 6 1
+#CHANGE_PRIORITIES 3 2
+#SET_TEMPO 255
+#DO_EVENT 3
+#DO_MONOLOG Basrah being attacked by Coalition forces
+#ENDIF
+#ENDIF
+// 
+// Event #4
+// Basrah falls/regained Al Basrah (365) Abu Al Khasib city (1450) Faw city (1451) (Go to An Nasiriyah 332)
+// 
+#IF_EVENT_PLAYED 4
+#IF_CONTROLLED 6 AND 365 1450 1451
+#SHIFT_INITIATIVE 3 6 50
+#RESET_EVENT 4
+#DO_MONOLOG Basrah regained
+#ENDIF
+#ELSE
+#IF_CONTROLLED 3 A 365 1450 1451
+#PLAY_MOVIE 103
+#SET_PAK_PRIORITY 6 332 100
+#SET_PAK_PRIORITY 3 332 100
+#DO_EVENT 4
+#SHIFT_INITIATIVE 6 3 50
+#DO_MONOLOG Basrah liberated
+#ENDIF
+#ENDIF
+//
+// Event #5 (Third line objects)
+// Iraq advanced beyond border Iranian Missile Area(5014), Torrreh-Ye Bakhkhakh (1477), Khorramshahr(5018), Istgah-e Hoseyniyeh(1350), Istgah-e Ahu (1297), Susangerd(1129), Town (1712), Dehloran(907), Gilan-e Gharb(740) 
+//
+#IF_NOT_EVENT_PLAYED 5
+#IF_NOT_EVENT_PLAYED 7
+#IF_CONTROLLED 6 OR 5014 1477 5018 1350 1297 1129 1712 907 740
+#DO_EVENT 5
+#RESET_EVENT 6
+#SHIFT_INITIATIVE 3 6 50
+#DO_MONOLOG Iraq advanced beyond border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #6 (First line objects)
+// Iraq pushed back to border Abad (642) Iranian Border Checkpoint(5055), Iranian Border Checkpoint(1618), Depot(1627) Iraqi-Iranian Border(1655), Iranian Border Checkpoint(1659), Iranian Highway (1699), Iranian Border Checkpoint(1671), Iranian Border Checkpoint(1660), Naft-e Shah(660), Qasr Shirin(3450)
+// 
+#IF_EVENT_PLAYED 5
+#IF_EVENT_PLAYED 7
+#PLAY_MOVIE 104
+#DO_EVENT 6
+#RESET_EVENT 5
+#DO_MONOLOG Iraq pushed back to border
+#ELSE
+#IF_CONTROLLED 3 AND 642 5055 1618 1627 1655 1659 1699 1671 1660 660 3450
+#PLAY_MOVIE 104
+#DO_EVENT 6
+#RESET_EVENT 5
+#DO_MONOLOG Iraq pushed back to border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #7 (Third line objects)
+// Iranian forces advanced beyond border Faw(1451) Iraqi Settlement (1452), Tannu (371), Basrah village (364), Factory(360), (Duwa 348), Musayab Power Station (345), Iraqi Road Junction(1633), Brigde(207),Brigde(205), Iraqi Road Junction(1149), Base(1726), Iraqi Border Checkpoint(1786), Depot(1694), Qarah Tapah(3448), Tazade Camp(3454), Maydan(3493)
+//
+#IF_NOT_EVENT_PLAYED 7
+#IF_NOT_EVENT_PLAYED 5
+#IF_CONTROLLED 3 OR 1451 1452 371 364 360 348 345 1633 207 205 1149 1726 1786 1694 3448 3454 3493
+#DO_EVENT 7
+#RESET_EVENT 8
+#SHIFT_INITIATIVE 6 3 50
+#DO_MONOLOG Iranian forces advanced beyond border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #8 (First line objects)
+// Iranian forces pushed back to border Iraqi-Iranian Border(223), Iraqi Bridge (1454) Iraq Border CheckPoint(5049), Iraq Border CheckPoint(1621), Iraq Border CheckPoint(5053), Iraqi Road Junction(1628), Maysan(1637), Iraqi Settlement(635), Badrah(153), Road(1698), Iraqi Road Junction(1665), Iraqi Road Junction(565), Naft Khana Oil Field(3495), Iraqi-Iranian Border(3456), Iraqi Highway (3567)
+// 
+#IF_EVENT_PLAYED 7
+#IF_EVENT_PLAYED 5
+#PLAY_MOVIE 105
+#DO_EVENT 8
+#RESET_EVENT 7
+#DO_MONOLOG Iranian forces pushed back to border
+#ELSE
+#IF_CONTROLLED 6 AND 223 1454 5049 1621 5053 1628 1637 635 153 1698 1665 565 3495 3456 3567
+#PLAY_MOVIE 105
+#DO_EVENT 8
+#RESET_EVENT 7
+#DO_MONOLOG Iranian forces pushed back to border
+#ENDIF
+#ENDIF
+#ENDIF
+// 
+// Event #9
+// Iranian forces go on offensive
+// 
+#IF_EVENT_PLAYED 10
+#IF_ON_OFFENSIVE 3
+#PLAY_MOVIE 106
+#DO_EVENT 9
+#RESET_EVENT 10
+#ENDIF
+#ENDIF
+// 
+// Event #10
+// Iranian forces go on defensive
+// 
+#IF_EVENT_PLAYED 9
+#IF_ON_OFFENSIVE 6
+#PLAY_MOVIE 107
+#DO_EVENT 10
+#RESET_EVENT 9
+#ENDIF
+#ENDIF
+// 
+// Event #11
+// Iraq guys win
+// Basically - Sarbandar City (1421), Omidiyeh City (1278), Ahvaz City (1205)
+//
+//
+#IF_CONTROLLED 6 AND 1421 1278 1205
+#PLAY_MOVIE 113
+#DO_EVENT 14
+#END_GAME 14
+#ENDIF
+// 
+// Event #12
+// Stalemate
+// 
+#IF_BORDOM_HOURS 240
+#PLAY_MOVIE 114
+#DO_EVENT 15
+#END_GAME 15
+#ENDIF
+// 
+// Event #13
+// Timeout - You have 30 days to win (or lose) the war
+// 
+#IF_CAMPAIGN_DAY G 30
+#PLAY_MOVIE 115
+#DO_EVENT 16
+#END_GAME 16
+#ENDIF
+// 
+// Event #14
+// Iran guys win
+// Basically - Az Zubayr(375) Umm Qasr (381) Al Amarah (254) Was At Tuba village (373)
+//
+#IF_CONTROLLED 3 AND 375 381 254
+#PLAY_MOVIE 116
+#DO_EVENT 17
+#END_GAME 17
+#ENDIF
+// End
+#ENDSCRIPT
