@@ -1,0 +1,1 @@
+".\IVC Server.exe" -i 0.0.0.0 -p 42071 -w lljk
